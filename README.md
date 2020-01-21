@@ -1,1 +1,0 @@
-# 14_band_spectrum_analyzer
