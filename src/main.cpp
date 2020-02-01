@@ -18,7 +18,8 @@ int pot_peak_b= A6;
 int pot_col_r= A7;
 int pot_col_g= A8;
 int pot_col_b= A9;
-int pot_selector= A10;
+int pot_selector_rainbow= A10;
+int pot_selector_custom = A11;
 
 struct Point{
 char x, y;
@@ -56,8 +57,8 @@ int peak_b;
 int col_r;
 int col_g;
 int col_b;
-int selector_read;
-int selector;
+int rainbow;
+int custom;
 
 void setup()
  {
@@ -139,12 +140,12 @@ void loop()
   digitalWrite(STROBE_PIN, HIGH);
   }
 
-  selector_read = analogRead(pot_selector);
-  selector = map(selector_read, 0, 1023, 0, 1);
+  rainbow = analogRead(pot_selector_rainbow);
+  custom = analogRead(pot_selector_custom);
 
   for(int j = 0; j < COLUMNS; j++) {
       for (int i = 0; i < spectrumValue[j]; i++) {
-          if( selector = 0) {
+          if( rainbow != 0) {
               spectrum[i][COLUMNS - 1 - j].active = 1;
               if (i <= (ROWS / 4)) {
                   spectrum[i][COLUMNS - 1 - j].r = 0;
@@ -167,7 +168,7 @@ void loop()
                   spectrum[i][COLUMNS - 1 - j].b = 0;
               }
           }
-          if( selector = 1) {
+          if( custom != 0) {
               spectrum[i][COLUMNS - 1 - j].active = 1;
               spectrum[i][COLUMNS - 1 - j].r =col_r;           //COLUMN Color red
               spectrum[i][COLUMNS - 1 - j].g =col_g;         //COLUMN Color green
