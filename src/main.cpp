@@ -18,6 +18,8 @@ int pot_peak_b= A6;
 int pot_col_r= A7;
 int pot_col_g= A8;
 int pot_col_b= A9;
+int pot_selector= A10;
+
 struct Point{
 char x, y;
 char  r,g,b;
@@ -54,6 +56,8 @@ int peak_b;
 int col_r;
 int col_g;
 int col_b;
+int selector_read;
+int selector;
 
 void setup()
  {
@@ -134,37 +138,43 @@ void loop()
   spectrumValue[i] = map(spectrumValue[i], 0, 1023, 0, ROWS);
   digitalWrite(STROBE_PIN, HIGH);
   }
-  for(int j = 0; j < COLUMNS; j++){
-  for(int i = 0; i < spectrumValue[j]; i++){
-  spectrum[i][COLUMNS - 1 - j].active = 1;
-    if( i <= (ROWS/4)){
-        spectrum[i][COLUMNS - 1 - j].r = 0;
-        spectrum[i][COLUMNS - 1 - j].g = map(i, 1, (ROWS/4), 0, 255);
-        spectrum[i][COLUMNS - 1 - j].b = 255;
-    }
-    if( i <= 2*(ROWS/4) && i> (ROWS/4)){
-        spectrum[i][COLUMNS - 1 - j].r = 0;
-        spectrum[i][COLUMNS - 1 - j].g = 255;
-        spectrum[i][COLUMNS - 1 - j].b = map(i, (ROWS/4), 2*(ROWS/4), 255, 0);
-    }
-    if( i <= 3*(ROWS/4) && i> 2*(ROWS/4)){
-        spectrum[i][COLUMNS - 1 - j].r = map(i, 2*(ROWS/4), 3*(ROWS/4), 0, 255);
-        spectrum[i][COLUMNS - 1 - j].g = 255;
-        spectrum[i][COLUMNS - 1 - j].b = 0;
-    }
-    if( i <= ROWS && i> 3*(ROWS/4)){
-        spectrum[i][COLUMNS - 1 - j].r = 255;
-        spectrum[i][COLUMNS - 1 - j].g = map(i, 3*(ROWS/4), ROWS, 0, 255);
-        spectrum[i][COLUMNS - 1 - j].b = 0;
-    }
 
-    }
-  /*!                                                 TO ACTIVATE POTENTIOMETERS
-  spectrum[i][COLUMNS - 1 - j].r =col_r;           //COLUMN Color red
-  spectrum[i][COLUMNS - 1 - j].g =col_g;         //COLUMN Color green
-  spectrum[i][COLUMNS - 1 - j].b =col_b;           //COLUMN Color blue
-  }
-*/
+  selector_read = analogRead(pot_selector);
+  selector = map(selector_read, 0, 1023, 0, 1);
+
+  for(int j = 0; j < COLUMNS; j++) {
+      for (int i = 0; i < spectrumValue[j]; i++) {
+          if( selector = 0) {
+              spectrum[i][COLUMNS - 1 - j].active = 1;
+              if (i <= (ROWS / 4)) {
+                  spectrum[i][COLUMNS - 1 - j].r = 0;
+                  spectrum[i][COLUMNS - 1 - j].g = map(i, 1, (ROWS / 4), 0, 255);
+                  spectrum[i][COLUMNS - 1 - j].b = 255;
+              }
+              if (i <= 2 * (ROWS / 4) && i > (ROWS / 4)) {
+                  spectrum[i][COLUMNS - 1 - j].r = 0;
+                  spectrum[i][COLUMNS - 1 - j].g = 255;
+                  spectrum[i][COLUMNS - 1 - j].b = map(i, (ROWS / 4), 2 * (ROWS / 4), 255, 0);
+              }
+              if (i <= 3 * (ROWS / 4) && i > 2 * (ROWS / 4)) {
+                  spectrum[i][COLUMNS - 1 - j].r = map(i, 2 * (ROWS / 4), 3 * (ROWS / 4), 0, 255);
+                  spectrum[i][COLUMNS - 1 - j].g = 255;
+                  spectrum[i][COLUMNS - 1 - j].b = 0;
+              }
+              if (i <= ROWS && i > 3 * (ROWS / 4)) {
+                  spectrum[i][COLUMNS - 1 - j].r = 255;
+                  spectrum[i][COLUMNS - 1 - j].g = map(i, 3 * (ROWS / 4), ROWS, 0, 255);
+                  spectrum[i][COLUMNS - 1 - j].b = 0;
+              }
+          }
+          if( selector = 1) {
+              spectrum[i][COLUMNS - 1 - j].active = 1;
+              spectrum[i][COLUMNS - 1 - j].r =col_r;           //COLUMN Color red
+              spectrum[i][COLUMNS - 1 - j].g =col_g;         //COLUMN Color green
+              spectrum[i][COLUMNS - 1 - j].b =col_b;           //COLUMN Color blue
+          }
+      }
+
   if(spectrumValue[j] - 1 > peakhold[j].position)
   {
   spectrum[spectrumValue[j] - 1][COLUMNS - 1 - j].r = 0;
