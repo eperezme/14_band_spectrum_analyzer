@@ -1,7 +1,7 @@
 #include "Arduino.h"
 #include "Wire.h"
-#include <Adafruit_NeoPixel.h>
-#include <si5351mcu.h>    //Si5351mcu library
+#include "Adafruit_NeoPixel.h"
+#include "si5351mcu.h"    //Si5351mcu library
 Si5351mcu Si;             //Si5351mcu Board
 #define PULSE_PIN     13
 #define NOISE         50
@@ -12,6 +12,12 @@ Si5351mcu Si;             //Si5351mcu Board
 #define RESET_PIN     7   //MSGEQ7 reset pin
 #define NUMPIXELS    ROWS * COLUMNS
 int sensor=A3;
+int pot_peak_r= A4;
+int pot_peak_g= A5;
+int pot_peak_b= A6;
+int pot_col_r= A7;
+int pot_col_g= A8;
+int pot_col_b= A9;
 struct Point{
 char x, y;
 char  r,g,b;
@@ -36,6 +42,18 @@ void flushMatrix();
 void topSinking();
 int sensorPotent;
 int outputBright;
+int peak_r_read;
+int peak_g_read;
+int peak_b_read;
+int col_r_read;
+int col_g_read;
+int col_b_read;
+int peak_r;
+int peak_g;
+int peak_b;
+int col_r;
+int col_g;
+int col_b;
 
 void setup()
  {
@@ -79,6 +97,20 @@ void loop()
   {
   counter++;
   clearspectrum();
+  peak_r_read = analogRead(pot_peak_r);
+  peak_g_read = analogRead(pot_peak_g);
+  peak_b_read = analogRead(pot_peak_b);
+  col_r_read = analogRead(pot_col_r);
+  col_g_read = analogRead(pot_col_g);
+  col_b_read = analogRead(pot_col_b);
+
+  peak_r = map(peak_r_read, 0, 1023, 0, 255);
+  peak_g = map(peak_g_read, 0, 1023, 0, 255);
+  peak_b = map(peak_b_read, 0, 1023, 0, 255);
+  col_r = map(col_r_read, 0, 1023, 0, 255);
+  col_g = map(col_g_read, 0, 1023, 0, 255);
+  col_b = map(col_b_read, 0, 1023, 0, 255);
+
   if (millis() - pwmpulse > 3000){
   toggle = !toggle;
   digitalWrite(PULSE_PIN, toggle);
@@ -104,9 +136,9 @@ void loop()
   for(int j = 0; j < COLUMNS; j++){
   for(int i = 0; i < spectrumValue[j]; i++){
   spectrum[i][COLUMNS - 1 - j].active = 1;
-  spectrum[i][COLUMNS - 1 - j].r =0;           //COLUMN Color red
-  spectrum[i][COLUMNS - 1 - j].g =255;         //COLUMN Color green
-  spectrum[i][COLUMNS - 1 - j].b =0;           //COLUMN Color blue
+  spectrum[i][COLUMNS - 1 - j].r =col_r;           //COLUMN Color red
+  spectrum[i][COLUMNS - 1 - j].g =col_g;         //COLUMN Color green
+  spectrum[i][COLUMNS - 1 - j].b =col_b;           //COLUMN Color blue
   }
   if(spectrumValue[j] - 1 > peakhold[j].position)
   {
@@ -119,9 +151,9 @@ void loop()
   else
   {
   spectrum[peakhold[j].position][COLUMNS - 1 - j].active = 1;
-  spectrum[peakhold[j].position][COLUMNS - 1 - j].r = 255;  //Peak Color red
-  spectrum[peakhold[j].position][COLUMNS - 1 - j].g = 255;  //Peak Color green
-  spectrum[peakhold[j].position][COLUMNS - 1 - j].b = 0;    //Peak Color blue
+  spectrum[peakhold[j].position][COLUMNS - 1 - j].r = peak_r;  //Peak Color red
+  spectrum[peakhold[j].position][COLUMNS - 1 - j].g = peak_g;  //Peak Color green
+  spectrum[peakhold[j].position][COLUMNS - 1 - j].b = peak_b;    //Peak Color blue
   }
   }
   flushMatrix();
