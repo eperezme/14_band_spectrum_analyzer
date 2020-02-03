@@ -26,7 +26,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="Added custom rainbow degradate bars">
+    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="Updated to 9 effects">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +197,7 @@
       <updated>1435919971910</updated>
       <workItem from="1580729609193" duration="4459000" />
       <workItem from="1580740251894" duration="3000" />
-      <workItem from="1580740262485" duration="6833000" />
+      <workItem from="1580740262485" duration="7222000" />
     </task>
     <task id="LOCAL-00001" summary="First modification of V2">
       <created>1580740344739</created>
@@ -233,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580747013586</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated to 9 effects">
+      <created>1580747132966</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580747132966</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,17 +272,18 @@
     <MESSAGE value="Fixed pins values" />
     <MESSAGE value="Added custom HSV regulated with potentiometers" />
     <MESSAGE value="Added custom rainbow degradate bars" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added custom rainbow degradate bars" />
+    <MESSAGE value="Updated to 9 effects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated to 9 effects" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="556" y="115" key="CommitChangelistDialog2" timestamp="1580747012633">
+    <state x="556" y="115" key="CommitChangelistDialog2" timestamp="1580747429148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="556" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580747012633" />
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1580747016994">
+    <state x="556" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580747429148" />
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1580747134204">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580747016994" />
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580747134204" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1580744373853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

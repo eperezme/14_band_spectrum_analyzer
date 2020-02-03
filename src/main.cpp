@@ -39,7 +39,8 @@
 */
 
 #include <si5351mcu.h>    // Library used to program clock generator IC via I2C
-Si5351mcu Si;	// Library instantiation as "Si"
+
+Si5351mcu Si;    // Library instantiation as "Si"
 #include <FastLED.h>    // You must include FastLED version 3.002.006. This library allows communication with each LED
 
 #define HEARTBEAT_PIN 13    // Pin for heartbeat
@@ -91,7 +92,7 @@ int effect = 2;    //	Load this color	effect	on	startup
 bool toggle = false;
 int n = 0;
 
-int sensor= A4;
+int sensor = A4;
 int selector = A5;
 int effect_selected;
 int brightness;
@@ -104,18 +105,31 @@ int s_val;
 
 //Declaring f(x)
 void rainbow_degradate();
+
 void customHSV_read();
+
 void read_selector();
+
 void brightness_read();
+
 void readMSGEQ7(void);
+
 void updateRGB(void);
+
 void updateHSV(void);
+
 void full_column(void);
+
 void full_column_dot(void);
+
 void total_color_hsv(int h, int s, int v);
+
 void total_color_rgb(int r, int g, int b);
+
 void rainbow_column(void);
+
 void rainbow_dot(void);
+
 void dynamic_rainbow(void);
 
 /*
@@ -171,6 +185,7 @@ void setup() {
     rainbow_time = millis();
     time_change = millis();
 }
+
 /*
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////-------------------- LOOP --------------------////////////////////////////////////////////////////////////////////////
@@ -273,6 +288,7 @@ void loop() {
     }
     delay(30);    // Refresh rate; Values 20 thru 30 should look realistic
 }
+
 /*
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////---------------- FUNCTIONS --------------------////////////////////////////////////////////////////////////////////////
@@ -430,7 +446,7 @@ void read_selector() {
     effect_selected = static_cast<int>(selector_read);
 }
 
-void customHSV_read(){
+void customHSV_read() {
     int pot_read_h = analogRead(pot_pin_h);
     int pot_read_s = analogRead(pot_pin_s);
     int pot_read_v = analogRead(pot_pin_v);
@@ -444,26 +460,25 @@ void customHSV_read(){
 void rainbow_degradate() {
     for (int i = 0; i < COLUMN; i++) {
         for (int j = 0; j < ROWS; ++j) {
-            if (j <= (ROWS/4)) {
+            if (j <= (ROWS / 4)) {
                 colors[i][j].r = 0;
-                colors[i][j].g = map(j, 1, (ROWS/4), 0, 255);
+                colors[i][j].g = map(j, 1, (ROWS / 4), 0, 255);
                 colors[i][j].b = 255;
             }
-            if (j <= 2*(ROWS/4) && j > (ROWS/4)) {
+            if (j <= 2 * (ROWS / 4) && j > (ROWS / 4)) {
                 colors[i][j].r = 0;
                 colors[i][j].g = 255;
-                colors[i][j].b = map(j, (ROWS/4), 2 * (ROWS/4), 255, 0);
+                colors[i][j].b = map(j, (ROWS / 4), 2 * (ROWS / 4), 255, 0);
             }
-            if (j <= 3*(ROWS/4) && j > 2*(ROWS/4)) {
-                colors[i][j].r = map(j, 2*(ROWS/4), 3 * (ROWS/4), 0, 255);
+            if (j <= 3 * (ROWS / 4) && j > 2 * (ROWS / 4)) {
+                colors[i][j].r = map(j, 2 * (ROWS / 4), 3 * (ROWS / 4), 0, 255);
                 colors[i][j].g = 255;
                 colors[i][j].b = 0;
             }
-            if (j <= ROWS && j > 3*(ROWS/4)) {
+            if (j <= ROWS && j > 3 * (ROWS / 4)) {
                 colors[i][j].r = 255;
-                colors[i][j].g = map(j, 3*(ROWS/4), ROWS, 255, 0);
+                colors[i][j].g = map(j, 3 * (ROWS / 4), ROWS, 255, 0);
                 colors[i][j].b = 0;
-            }
             }
         }
     }
