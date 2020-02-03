@@ -184,7 +184,7 @@ void loop() {
         read_selector();
         effect = effect_selected;   // Enable this line to set a fixed mode
 //effect++;	// Enable this line to cycle through different modes
-        if (effect > 7) {
+        if (effect > 8) {
             effect = 0;
         }
         time_change = millis();
@@ -426,7 +426,7 @@ void brightness_read() {
 
 void read_selector() {
     int selector_analog_Read = analogRead(selector);
-    float selector_read = map(selector_analog_Read, 0, 1023, 0, 7.9);
+    float selector_read = map(selector_analog_Read, 0, 1023, 0, 8.9);
     effect_selected = static_cast<int>(selector_read);
 }
 
