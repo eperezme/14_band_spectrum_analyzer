@@ -26,7 +26,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="Fixed pins values">
+    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="Added custom HSV regulated with potentiometers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
@@ -197,7 +197,7 @@
       <updated>1435919971910</updated>
       <workItem from="1580729609193" duration="4459000" />
       <workItem from="1580740251894" duration="3000" />
-      <workItem from="1580740262485" duration="4865000" />
+      <workItem from="1580740262485" duration="6716000" />
     </task>
     <task id="LOCAL-00001" summary="First modification of V2">
       <created>1580740344739</created>
@@ -220,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580744409329</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added custom HSV regulated with potentiometers">
+      <created>1580745177425</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580745177425</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,17 +256,18 @@
     <MESSAGE value="First modification of V2" />
     <MESSAGE value="Added selector of effect and brightness with potentiometers" />
     <MESSAGE value="Fixed pins values" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed pins values" />
+    <MESSAGE value="Added custom HSV regulated with potentiometers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added custom HSV regulated with potentiometers" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="556" y="115" key="CommitChangelistDialog2" timestamp="1580744408506">
+    <state x="556" y="115" key="CommitChangelistDialog2" timestamp="1580745176467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="556" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580744408506" />
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1580744413514">
+    <state x="556" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580745176467" />
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1580745185940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580744413514" />
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580745185940" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1580744373853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
