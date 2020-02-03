@@ -42,10 +42,10 @@
 Si5351mcu Si;	// Library instantiation as "Si"
 #include <FastLED.h>    // You must include FastLED version 3.002.006. This library allows communication with each LED
 
-#define HEARTBEAT_PIN 5    // Pin for heartbeat
-#define DATA_PIN 36    // Pin for serial communication with LED string. This pin directs data thru termination resistor R13 on my 'SPECKY-BOARD'.
-#define STROBE_PIN 7    // Pin to instruct MSGEQ7 IC's to inspect next band (band 0 thru 6). Default Pin is 6. Default Pin on SpeckyBoard is 7.
-#define RESET_PIN 6    // Pin to instruct MSGEQ7 to return to band zero and inspect it. Default Pin is 7. Default Pin on SpeckyBoard is 6.
+#define HEARTBEAT_PIN 13    // Pin for heartbeat
+#define DATA_PIN 9    // Pin for serial communication with LED string. This pin directs data thru termination resistor R13 on my 'SPECKY-BOARD'.
+#define STROBE_PIN 6    // Pin to instruct MSGEQ7 IC's to inspect next band (band 0 thru 6). Default Pin is 6. Default Pin on SpeckyBoard is 7.
+#define RESET_PIN 7    // Pin to instruct MSGEQ7 to return to band zero and inspect it. Default Pin is 7. Default Pin on SpeckyBoard is 6.
 #define COLUMN 14    // Number of columns in LED project
 #define ROWS 20    // Number of rows (left to right) in LED project.
 #define NUM_LEDS COLUMN * ROWS    // Total number of LED's in the project. Should be equal to COLUMN * ROWS
@@ -250,7 +250,8 @@ void loop() {
             updateHSV();
             break;
 
-        case 7:    // Dot column; all bands same static color total_color_hsv(55, 255, 255);
+        case 7:    // Dot column; all bands same static color
+            total_color_hsv(55, 255, 255);
             full_column_dot();
             updateHSV();
             break;
@@ -413,3 +414,4 @@ void read_selector() {
     float selector_read = map(selector_analog_Read, 0, 1023, 0, 7.9);
     effect_selected = static_cast<int>(selector_read);
 }
+
