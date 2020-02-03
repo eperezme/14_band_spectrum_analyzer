@@ -279,275 +279,356 @@ PLATFORMIO_TEST/fast:
 	$(MAKE) -f CMakeFiles/PLATFORMIO_TEST.dir/build.make CMakeFiles/PLATFORMIO_TEST.dir/build
 .PHONY : PLATFORMIO_TEST/fast
 
-lib/FastLED-3.3.3/FastLED.o: lib/FastLED-3.3.3/FastLED.cpp.o
+lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.o: lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.cpp.o
 
-.PHONY : lib/FastLED-3.3.3/FastLED.o
-
-# target to build an object file
-lib/FastLED-3.3.3/FastLED.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/FastLED.cpp.o
-.PHONY : lib/FastLED-3.3.3/FastLED.cpp.o
-
-lib/FastLED-3.3.3/FastLED.i: lib/FastLED-3.3.3/FastLED.cpp.i
-
-.PHONY : lib/FastLED-3.3.3/FastLED.i
-
-# target to preprocess a source file
-lib/FastLED-3.3.3/FastLED.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/FastLED.cpp.i
-.PHONY : lib/FastLED-3.3.3/FastLED.cpp.i
-
-lib/FastLED-3.3.3/FastLED.s: lib/FastLED-3.3.3/FastLED.cpp.s
-
-.PHONY : lib/FastLED-3.3.3/FastLED.s
-
-# target to generate assembly for a file
-lib/FastLED-3.3.3/FastLED.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/FastLED.cpp.s
-.PHONY : lib/FastLED-3.3.3/FastLED.cpp.s
-
-lib/FastLED-3.3.3/bitswap.o: lib/FastLED-3.3.3/bitswap.cpp.o
-
-.PHONY : lib/FastLED-3.3.3/bitswap.o
+.PHONY : lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.o
 
 # target to build an object file
-lib/FastLED-3.3.3/bitswap.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/bitswap.cpp.o
-.PHONY : lib/FastLED-3.3.3/bitswap.cpp.o
+lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.cpp.o
+.PHONY : lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.cpp.o
 
-lib/FastLED-3.3.3/bitswap.i: lib/FastLED-3.3.3/bitswap.cpp.i
+lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.i: lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.cpp.i
 
-.PHONY : lib/FastLED-3.3.3/bitswap.i
+.PHONY : lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.i
 
 # target to preprocess a source file
-lib/FastLED-3.3.3/bitswap.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/bitswap.cpp.i
-.PHONY : lib/FastLED-3.3.3/bitswap.cpp.i
+lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.cpp.i
+.PHONY : lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.cpp.i
 
-lib/FastLED-3.3.3/bitswap.s: lib/FastLED-3.3.3/bitswap.cpp.s
+lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.s: lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.cpp.s
 
-.PHONY : lib/FastLED-3.3.3/bitswap.s
+.PHONY : lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.s
 
 # target to generate assembly for a file
-lib/FastLED-3.3.3/bitswap.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/bitswap.cpp.s
-.PHONY : lib/FastLED-3.3.3/bitswap.cpp.s
+lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.cpp.s
+.PHONY : lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.cpp.s
 
-lib/FastLED-3.3.3/colorpalettes.o: lib/FastLED-3.3.3/colorpalettes.cpp.o
+lib/Adafruit_NeoPixel-1.3.4/esp8266.o: lib/Adafruit_NeoPixel-1.3.4/esp8266.c.o
 
-.PHONY : lib/FastLED-3.3.3/colorpalettes.o
+.PHONY : lib/Adafruit_NeoPixel-1.3.4/esp8266.o
 
 # target to build an object file
-lib/FastLED-3.3.3/colorpalettes.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorpalettes.cpp.o
-.PHONY : lib/FastLED-3.3.3/colorpalettes.cpp.o
+lib/Adafruit_NeoPixel-1.3.4/esp8266.c.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_NeoPixel-1.3.4/esp8266.c.o
+.PHONY : lib/Adafruit_NeoPixel-1.3.4/esp8266.c.o
 
-lib/FastLED-3.3.3/colorpalettes.i: lib/FastLED-3.3.3/colorpalettes.cpp.i
+lib/Adafruit_NeoPixel-1.3.4/esp8266.i: lib/Adafruit_NeoPixel-1.3.4/esp8266.c.i
 
-.PHONY : lib/FastLED-3.3.3/colorpalettes.i
+.PHONY : lib/Adafruit_NeoPixel-1.3.4/esp8266.i
 
 # target to preprocess a source file
-lib/FastLED-3.3.3/colorpalettes.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorpalettes.cpp.i
-.PHONY : lib/FastLED-3.3.3/colorpalettes.cpp.i
+lib/Adafruit_NeoPixel-1.3.4/esp8266.c.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_NeoPixel-1.3.4/esp8266.c.i
+.PHONY : lib/Adafruit_NeoPixel-1.3.4/esp8266.c.i
 
-lib/FastLED-3.3.3/colorpalettes.s: lib/FastLED-3.3.3/colorpalettes.cpp.s
+lib/Adafruit_NeoPixel-1.3.4/esp8266.s: lib/Adafruit_NeoPixel-1.3.4/esp8266.c.s
 
-.PHONY : lib/FastLED-3.3.3/colorpalettes.s
+.PHONY : lib/Adafruit_NeoPixel-1.3.4/esp8266.s
 
 # target to generate assembly for a file
-lib/FastLED-3.3.3/colorpalettes.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorpalettes.cpp.s
-.PHONY : lib/FastLED-3.3.3/colorpalettes.cpp.s
+lib/Adafruit_NeoPixel-1.3.4/esp8266.c.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_NeoPixel-1.3.4/esp8266.c.s
+.PHONY : lib/Adafruit_NeoPixel-1.3.4/esp8266.c.s
 
-lib/FastLED-3.3.3/colorutils.o: lib/FastLED-3.3.3/colorutils.cpp.o
+lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.o: lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.cpp.o
 
-.PHONY : lib/FastLED-3.3.3/colorutils.o
+.PHONY : lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.o
 
 # target to build an object file
-lib/FastLED-3.3.3/colorutils.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorutils.cpp.o
-.PHONY : lib/FastLED-3.3.3/colorutils.cpp.o
+lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.cpp.o
+.PHONY : lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.cpp.o
 
-lib/FastLED-3.3.3/colorutils.i: lib/FastLED-3.3.3/colorutils.cpp.i
+lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.i: lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.cpp.i
 
-.PHONY : lib/FastLED-3.3.3/colorutils.i
+.PHONY : lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.i
 
 # target to preprocess a source file
-lib/FastLED-3.3.3/colorutils.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorutils.cpp.i
-.PHONY : lib/FastLED-3.3.3/colorutils.cpp.i
+lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.cpp.i
+.PHONY : lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.cpp.i
 
-lib/FastLED-3.3.3/colorutils.s: lib/FastLED-3.3.3/colorutils.cpp.s
+lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.s: lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.cpp.s
 
-.PHONY : lib/FastLED-3.3.3/colorutils.s
+.PHONY : lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.s
 
 # target to generate assembly for a file
-lib/FastLED-3.3.3/colorutils.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorutils.cpp.s
-.PHONY : lib/FastLED-3.3.3/colorutils.cpp.s
+lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.cpp.s
+.PHONY : lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.cpp.s
 
-lib/FastLED-3.3.3/hsv2rgb.o: lib/FastLED-3.3.3/hsv2rgb.cpp.o
+lib/FastLED-3.3.2/FastLED.o: lib/FastLED-3.3.2/FastLED.cpp.o
 
-.PHONY : lib/FastLED-3.3.3/hsv2rgb.o
+.PHONY : lib/FastLED-3.3.2/FastLED.o
 
 # target to build an object file
-lib/FastLED-3.3.3/hsv2rgb.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/hsv2rgb.cpp.o
-.PHONY : lib/FastLED-3.3.3/hsv2rgb.cpp.o
+lib/FastLED-3.3.2/FastLED.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/FastLED.cpp.o
+.PHONY : lib/FastLED-3.3.2/FastLED.cpp.o
 
-lib/FastLED-3.3.3/hsv2rgb.i: lib/FastLED-3.3.3/hsv2rgb.cpp.i
+lib/FastLED-3.3.2/FastLED.i: lib/FastLED-3.3.2/FastLED.cpp.i
 
-.PHONY : lib/FastLED-3.3.3/hsv2rgb.i
+.PHONY : lib/FastLED-3.3.2/FastLED.i
 
 # target to preprocess a source file
-lib/FastLED-3.3.3/hsv2rgb.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/hsv2rgb.cpp.i
-.PHONY : lib/FastLED-3.3.3/hsv2rgb.cpp.i
+lib/FastLED-3.3.2/FastLED.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/FastLED.cpp.i
+.PHONY : lib/FastLED-3.3.2/FastLED.cpp.i
 
-lib/FastLED-3.3.3/hsv2rgb.s: lib/FastLED-3.3.3/hsv2rgb.cpp.s
+lib/FastLED-3.3.2/FastLED.s: lib/FastLED-3.3.2/FastLED.cpp.s
 
-.PHONY : lib/FastLED-3.3.3/hsv2rgb.s
+.PHONY : lib/FastLED-3.3.2/FastLED.s
 
 # target to generate assembly for a file
-lib/FastLED-3.3.3/hsv2rgb.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/hsv2rgb.cpp.s
-.PHONY : lib/FastLED-3.3.3/hsv2rgb.cpp.s
+lib/FastLED-3.3.2/FastLED.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/FastLED.cpp.s
+.PHONY : lib/FastLED-3.3.2/FastLED.cpp.s
 
-lib/FastLED-3.3.3/lib8tion.o: lib/FastLED-3.3.3/lib8tion.cpp.o
+lib/FastLED-3.3.2/bitswap.o: lib/FastLED-3.3.2/bitswap.cpp.o
 
-.PHONY : lib/FastLED-3.3.3/lib8tion.o
+.PHONY : lib/FastLED-3.3.2/bitswap.o
 
 # target to build an object file
-lib/FastLED-3.3.3/lib8tion.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/lib8tion.cpp.o
-.PHONY : lib/FastLED-3.3.3/lib8tion.cpp.o
+lib/FastLED-3.3.2/bitswap.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/bitswap.cpp.o
+.PHONY : lib/FastLED-3.3.2/bitswap.cpp.o
 
-lib/FastLED-3.3.3/lib8tion.i: lib/FastLED-3.3.3/lib8tion.cpp.i
+lib/FastLED-3.3.2/bitswap.i: lib/FastLED-3.3.2/bitswap.cpp.i
 
-.PHONY : lib/FastLED-3.3.3/lib8tion.i
+.PHONY : lib/FastLED-3.3.2/bitswap.i
 
 # target to preprocess a source file
-lib/FastLED-3.3.3/lib8tion.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/lib8tion.cpp.i
-.PHONY : lib/FastLED-3.3.3/lib8tion.cpp.i
+lib/FastLED-3.3.2/bitswap.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/bitswap.cpp.i
+.PHONY : lib/FastLED-3.3.2/bitswap.cpp.i
 
-lib/FastLED-3.3.3/lib8tion.s: lib/FastLED-3.3.3/lib8tion.cpp.s
+lib/FastLED-3.3.2/bitswap.s: lib/FastLED-3.3.2/bitswap.cpp.s
 
-.PHONY : lib/FastLED-3.3.3/lib8tion.s
+.PHONY : lib/FastLED-3.3.2/bitswap.s
 
 # target to generate assembly for a file
-lib/FastLED-3.3.3/lib8tion.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/lib8tion.cpp.s
-.PHONY : lib/FastLED-3.3.3/lib8tion.cpp.s
+lib/FastLED-3.3.2/bitswap.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/bitswap.cpp.s
+.PHONY : lib/FastLED-3.3.2/bitswap.cpp.s
 
-lib/FastLED-3.3.3/noise.o: lib/FastLED-3.3.3/noise.cpp.o
+lib/FastLED-3.3.2/colorpalettes.o: lib/FastLED-3.3.2/colorpalettes.cpp.o
 
-.PHONY : lib/FastLED-3.3.3/noise.o
+.PHONY : lib/FastLED-3.3.2/colorpalettes.o
 
 # target to build an object file
-lib/FastLED-3.3.3/noise.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/noise.cpp.o
-.PHONY : lib/FastLED-3.3.3/noise.cpp.o
+lib/FastLED-3.3.2/colorpalettes.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorpalettes.cpp.o
+.PHONY : lib/FastLED-3.3.2/colorpalettes.cpp.o
 
-lib/FastLED-3.3.3/noise.i: lib/FastLED-3.3.3/noise.cpp.i
+lib/FastLED-3.3.2/colorpalettes.i: lib/FastLED-3.3.2/colorpalettes.cpp.i
 
-.PHONY : lib/FastLED-3.3.3/noise.i
+.PHONY : lib/FastLED-3.3.2/colorpalettes.i
 
 # target to preprocess a source file
-lib/FastLED-3.3.3/noise.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/noise.cpp.i
-.PHONY : lib/FastLED-3.3.3/noise.cpp.i
+lib/FastLED-3.3.2/colorpalettes.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorpalettes.cpp.i
+.PHONY : lib/FastLED-3.3.2/colorpalettes.cpp.i
 
-lib/FastLED-3.3.3/noise.s: lib/FastLED-3.3.3/noise.cpp.s
+lib/FastLED-3.3.2/colorpalettes.s: lib/FastLED-3.3.2/colorpalettes.cpp.s
 
-.PHONY : lib/FastLED-3.3.3/noise.s
+.PHONY : lib/FastLED-3.3.2/colorpalettes.s
 
 # target to generate assembly for a file
-lib/FastLED-3.3.3/noise.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/noise.cpp.s
-.PHONY : lib/FastLED-3.3.3/noise.cpp.s
+lib/FastLED-3.3.2/colorpalettes.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorpalettes.cpp.s
+.PHONY : lib/FastLED-3.3.2/colorpalettes.cpp.s
 
-lib/FastLED-3.3.3/platforms.o: lib/FastLED-3.3.3/platforms.cpp.o
+lib/FastLED-3.3.2/colorutils.o: lib/FastLED-3.3.2/colorutils.cpp.o
 
-.PHONY : lib/FastLED-3.3.3/platforms.o
+.PHONY : lib/FastLED-3.3.2/colorutils.o
 
 # target to build an object file
-lib/FastLED-3.3.3/platforms.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/platforms.cpp.o
-.PHONY : lib/FastLED-3.3.3/platforms.cpp.o
+lib/FastLED-3.3.2/colorutils.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorutils.cpp.o
+.PHONY : lib/FastLED-3.3.2/colorutils.cpp.o
 
-lib/FastLED-3.3.3/platforms.i: lib/FastLED-3.3.3/platforms.cpp.i
+lib/FastLED-3.3.2/colorutils.i: lib/FastLED-3.3.2/colorutils.cpp.i
 
-.PHONY : lib/FastLED-3.3.3/platforms.i
+.PHONY : lib/FastLED-3.3.2/colorutils.i
 
 # target to preprocess a source file
-lib/FastLED-3.3.3/platforms.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/platforms.cpp.i
-.PHONY : lib/FastLED-3.3.3/platforms.cpp.i
+lib/FastLED-3.3.2/colorutils.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorutils.cpp.i
+.PHONY : lib/FastLED-3.3.2/colorutils.cpp.i
 
-lib/FastLED-3.3.3/platforms.s: lib/FastLED-3.3.3/platforms.cpp.s
+lib/FastLED-3.3.2/colorutils.s: lib/FastLED-3.3.2/colorutils.cpp.s
 
-.PHONY : lib/FastLED-3.3.3/platforms.s
+.PHONY : lib/FastLED-3.3.2/colorutils.s
 
 # target to generate assembly for a file
-lib/FastLED-3.3.3/platforms.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/platforms.cpp.s
-.PHONY : lib/FastLED-3.3.3/platforms.cpp.s
+lib/FastLED-3.3.2/colorutils.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorutils.cpp.s
+.PHONY : lib/FastLED-3.3.2/colorutils.cpp.s
 
-lib/FastLED-3.3.3/power_mgt.o: lib/FastLED-3.3.3/power_mgt.cpp.o
+lib/FastLED-3.3.2/hsv2rgb.o: lib/FastLED-3.3.2/hsv2rgb.cpp.o
 
-.PHONY : lib/FastLED-3.3.3/power_mgt.o
+.PHONY : lib/FastLED-3.3.2/hsv2rgb.o
 
 # target to build an object file
-lib/FastLED-3.3.3/power_mgt.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/power_mgt.cpp.o
-.PHONY : lib/FastLED-3.3.3/power_mgt.cpp.o
+lib/FastLED-3.3.2/hsv2rgb.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/hsv2rgb.cpp.o
+.PHONY : lib/FastLED-3.3.2/hsv2rgb.cpp.o
 
-lib/FastLED-3.3.3/power_mgt.i: lib/FastLED-3.3.3/power_mgt.cpp.i
+lib/FastLED-3.3.2/hsv2rgb.i: lib/FastLED-3.3.2/hsv2rgb.cpp.i
 
-.PHONY : lib/FastLED-3.3.3/power_mgt.i
+.PHONY : lib/FastLED-3.3.2/hsv2rgb.i
 
 # target to preprocess a source file
-lib/FastLED-3.3.3/power_mgt.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/power_mgt.cpp.i
-.PHONY : lib/FastLED-3.3.3/power_mgt.cpp.i
+lib/FastLED-3.3.2/hsv2rgb.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/hsv2rgb.cpp.i
+.PHONY : lib/FastLED-3.3.2/hsv2rgb.cpp.i
 
-lib/FastLED-3.3.3/power_mgt.s: lib/FastLED-3.3.3/power_mgt.cpp.s
+lib/FastLED-3.3.2/hsv2rgb.s: lib/FastLED-3.3.2/hsv2rgb.cpp.s
 
-.PHONY : lib/FastLED-3.3.3/power_mgt.s
+.PHONY : lib/FastLED-3.3.2/hsv2rgb.s
 
 # target to generate assembly for a file
-lib/FastLED-3.3.3/power_mgt.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/power_mgt.cpp.s
-.PHONY : lib/FastLED-3.3.3/power_mgt.cpp.s
+lib/FastLED-3.3.2/hsv2rgb.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/hsv2rgb.cpp.s
+.PHONY : lib/FastLED-3.3.2/hsv2rgb.cpp.s
 
-lib/FastLED-3.3.3/wiring.o: lib/FastLED-3.3.3/wiring.cpp.o
+lib/FastLED-3.3.2/lib8tion.o: lib/FastLED-3.3.2/lib8tion.cpp.o
 
-.PHONY : lib/FastLED-3.3.3/wiring.o
+.PHONY : lib/FastLED-3.3.2/lib8tion.o
 
 # target to build an object file
-lib/FastLED-3.3.3/wiring.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/wiring.cpp.o
-.PHONY : lib/FastLED-3.3.3/wiring.cpp.o
+lib/FastLED-3.3.2/lib8tion.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/lib8tion.cpp.o
+.PHONY : lib/FastLED-3.3.2/lib8tion.cpp.o
 
-lib/FastLED-3.3.3/wiring.i: lib/FastLED-3.3.3/wiring.cpp.i
+lib/FastLED-3.3.2/lib8tion.i: lib/FastLED-3.3.2/lib8tion.cpp.i
 
-.PHONY : lib/FastLED-3.3.3/wiring.i
+.PHONY : lib/FastLED-3.3.2/lib8tion.i
 
 # target to preprocess a source file
-lib/FastLED-3.3.3/wiring.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/wiring.cpp.i
-.PHONY : lib/FastLED-3.3.3/wiring.cpp.i
+lib/FastLED-3.3.2/lib8tion.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/lib8tion.cpp.i
+.PHONY : lib/FastLED-3.3.2/lib8tion.cpp.i
 
-lib/FastLED-3.3.3/wiring.s: lib/FastLED-3.3.3/wiring.cpp.s
+lib/FastLED-3.3.2/lib8tion.s: lib/FastLED-3.3.2/lib8tion.cpp.s
 
-.PHONY : lib/FastLED-3.3.3/wiring.s
+.PHONY : lib/FastLED-3.3.2/lib8tion.s
 
 # target to generate assembly for a file
-lib/FastLED-3.3.3/wiring.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/wiring.cpp.s
-.PHONY : lib/FastLED-3.3.3/wiring.cpp.s
+lib/FastLED-3.3.2/lib8tion.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/lib8tion.cpp.s
+.PHONY : lib/FastLED-3.3.2/lib8tion.cpp.s
+
+lib/FastLED-3.3.2/noise.o: lib/FastLED-3.3.2/noise.cpp.o
+
+.PHONY : lib/FastLED-3.3.2/noise.o
+
+# target to build an object file
+lib/FastLED-3.3.2/noise.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/noise.cpp.o
+.PHONY : lib/FastLED-3.3.2/noise.cpp.o
+
+lib/FastLED-3.3.2/noise.i: lib/FastLED-3.3.2/noise.cpp.i
+
+.PHONY : lib/FastLED-3.3.2/noise.i
+
+# target to preprocess a source file
+lib/FastLED-3.3.2/noise.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/noise.cpp.i
+.PHONY : lib/FastLED-3.3.2/noise.cpp.i
+
+lib/FastLED-3.3.2/noise.s: lib/FastLED-3.3.2/noise.cpp.s
+
+.PHONY : lib/FastLED-3.3.2/noise.s
+
+# target to generate assembly for a file
+lib/FastLED-3.3.2/noise.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/noise.cpp.s
+.PHONY : lib/FastLED-3.3.2/noise.cpp.s
+
+lib/FastLED-3.3.2/platforms.o: lib/FastLED-3.3.2/platforms.cpp.o
+
+.PHONY : lib/FastLED-3.3.2/platforms.o
+
+# target to build an object file
+lib/FastLED-3.3.2/platforms.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/platforms.cpp.o
+.PHONY : lib/FastLED-3.3.2/platforms.cpp.o
+
+lib/FastLED-3.3.2/platforms.i: lib/FastLED-3.3.2/platforms.cpp.i
+
+.PHONY : lib/FastLED-3.3.2/platforms.i
+
+# target to preprocess a source file
+lib/FastLED-3.3.2/platforms.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/platforms.cpp.i
+.PHONY : lib/FastLED-3.3.2/platforms.cpp.i
+
+lib/FastLED-3.3.2/platforms.s: lib/FastLED-3.3.2/platforms.cpp.s
+
+.PHONY : lib/FastLED-3.3.2/platforms.s
+
+# target to generate assembly for a file
+lib/FastLED-3.3.2/platforms.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/platforms.cpp.s
+.PHONY : lib/FastLED-3.3.2/platforms.cpp.s
+
+lib/FastLED-3.3.2/power_mgt.o: lib/FastLED-3.3.2/power_mgt.cpp.o
+
+.PHONY : lib/FastLED-3.3.2/power_mgt.o
+
+# target to build an object file
+lib/FastLED-3.3.2/power_mgt.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/power_mgt.cpp.o
+.PHONY : lib/FastLED-3.3.2/power_mgt.cpp.o
+
+lib/FastLED-3.3.2/power_mgt.i: lib/FastLED-3.3.2/power_mgt.cpp.i
+
+.PHONY : lib/FastLED-3.3.2/power_mgt.i
+
+# target to preprocess a source file
+lib/FastLED-3.3.2/power_mgt.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/power_mgt.cpp.i
+.PHONY : lib/FastLED-3.3.2/power_mgt.cpp.i
+
+lib/FastLED-3.3.2/power_mgt.s: lib/FastLED-3.3.2/power_mgt.cpp.s
+
+.PHONY : lib/FastLED-3.3.2/power_mgt.s
+
+# target to generate assembly for a file
+lib/FastLED-3.3.2/power_mgt.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/power_mgt.cpp.s
+.PHONY : lib/FastLED-3.3.2/power_mgt.cpp.s
+
+lib/FastLED-3.3.2/wiring.o: lib/FastLED-3.3.2/wiring.cpp.o
+
+.PHONY : lib/FastLED-3.3.2/wiring.o
+
+# target to build an object file
+lib/FastLED-3.3.2/wiring.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/wiring.cpp.o
+.PHONY : lib/FastLED-3.3.2/wiring.cpp.o
+
+lib/FastLED-3.3.2/wiring.i: lib/FastLED-3.3.2/wiring.cpp.i
+
+.PHONY : lib/FastLED-3.3.2/wiring.i
+
+# target to preprocess a source file
+lib/FastLED-3.3.2/wiring.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/wiring.cpp.i
+.PHONY : lib/FastLED-3.3.2/wiring.cpp.i
+
+lib/FastLED-3.3.2/wiring.s: lib/FastLED-3.3.2/wiring.cpp.s
+
+.PHONY : lib/FastLED-3.3.2/wiring.s
+
+# target to generate assembly for a file
+lib/FastLED-3.3.2/wiring.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/wiring.cpp.s
+.PHONY : lib/FastLED-3.3.2/wiring.cpp.s
 
 lib/Si5351mcu-0.5/src/si5351mcu.o: lib/Si5351mcu-0.5/src/si5351mcu.cpp.o
 
@@ -624,36 +705,45 @@ help:
 	@echo "... PLATFORMIO_CLEAN"
 	@echo "... PLATFORMIO_DEVICE_LIST"
 	@echo "... PLATFORMIO_TEST"
-	@echo "... lib/FastLED-3.3.3/FastLED.o"
-	@echo "... lib/FastLED-3.3.3/FastLED.i"
-	@echo "... lib/FastLED-3.3.3/FastLED.s"
-	@echo "... lib/FastLED-3.3.3/bitswap.o"
-	@echo "... lib/FastLED-3.3.3/bitswap.i"
-	@echo "... lib/FastLED-3.3.3/bitswap.s"
-	@echo "... lib/FastLED-3.3.3/colorpalettes.o"
-	@echo "... lib/FastLED-3.3.3/colorpalettes.i"
-	@echo "... lib/FastLED-3.3.3/colorpalettes.s"
-	@echo "... lib/FastLED-3.3.3/colorutils.o"
-	@echo "... lib/FastLED-3.3.3/colorutils.i"
-	@echo "... lib/FastLED-3.3.3/colorutils.s"
-	@echo "... lib/FastLED-3.3.3/hsv2rgb.o"
-	@echo "... lib/FastLED-3.3.3/hsv2rgb.i"
-	@echo "... lib/FastLED-3.3.3/hsv2rgb.s"
-	@echo "... lib/FastLED-3.3.3/lib8tion.o"
-	@echo "... lib/FastLED-3.3.3/lib8tion.i"
-	@echo "... lib/FastLED-3.3.3/lib8tion.s"
-	@echo "... lib/FastLED-3.3.3/noise.o"
-	@echo "... lib/FastLED-3.3.3/noise.i"
-	@echo "... lib/FastLED-3.3.3/noise.s"
-	@echo "... lib/FastLED-3.3.3/platforms.o"
-	@echo "... lib/FastLED-3.3.3/platforms.i"
-	@echo "... lib/FastLED-3.3.3/platforms.s"
-	@echo "... lib/FastLED-3.3.3/power_mgt.o"
-	@echo "... lib/FastLED-3.3.3/power_mgt.i"
-	@echo "... lib/FastLED-3.3.3/power_mgt.s"
-	@echo "... lib/FastLED-3.3.3/wiring.o"
-	@echo "... lib/FastLED-3.3.3/wiring.i"
-	@echo "... lib/FastLED-3.3.3/wiring.s"
+	@echo "... lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.o"
+	@echo "... lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.i"
+	@echo "... lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.s"
+	@echo "... lib/Adafruit_NeoPixel-1.3.4/esp8266.o"
+	@echo "... lib/Adafruit_NeoPixel-1.3.4/esp8266.i"
+	@echo "... lib/Adafruit_NeoPixel-1.3.4/esp8266.s"
+	@echo "... lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.o"
+	@echo "... lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.i"
+	@echo "... lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.s"
+	@echo "... lib/FastLED-3.3.2/FastLED.o"
+	@echo "... lib/FastLED-3.3.2/FastLED.i"
+	@echo "... lib/FastLED-3.3.2/FastLED.s"
+	@echo "... lib/FastLED-3.3.2/bitswap.o"
+	@echo "... lib/FastLED-3.3.2/bitswap.i"
+	@echo "... lib/FastLED-3.3.2/bitswap.s"
+	@echo "... lib/FastLED-3.3.2/colorpalettes.o"
+	@echo "... lib/FastLED-3.3.2/colorpalettes.i"
+	@echo "... lib/FastLED-3.3.2/colorpalettes.s"
+	@echo "... lib/FastLED-3.3.2/colorutils.o"
+	@echo "... lib/FastLED-3.3.2/colorutils.i"
+	@echo "... lib/FastLED-3.3.2/colorutils.s"
+	@echo "... lib/FastLED-3.3.2/hsv2rgb.o"
+	@echo "... lib/FastLED-3.3.2/hsv2rgb.i"
+	@echo "... lib/FastLED-3.3.2/hsv2rgb.s"
+	@echo "... lib/FastLED-3.3.2/lib8tion.o"
+	@echo "... lib/FastLED-3.3.2/lib8tion.i"
+	@echo "... lib/FastLED-3.3.2/lib8tion.s"
+	@echo "... lib/FastLED-3.3.2/noise.o"
+	@echo "... lib/FastLED-3.3.2/noise.i"
+	@echo "... lib/FastLED-3.3.2/noise.s"
+	@echo "... lib/FastLED-3.3.2/platforms.o"
+	@echo "... lib/FastLED-3.3.2/platforms.i"
+	@echo "... lib/FastLED-3.3.2/platforms.s"
+	@echo "... lib/FastLED-3.3.2/power_mgt.o"
+	@echo "... lib/FastLED-3.3.2/power_mgt.i"
+	@echo "... lib/FastLED-3.3.2/power_mgt.s"
+	@echo "... lib/FastLED-3.3.2/wiring.o"
+	@echo "... lib/FastLED-3.3.2/wiring.i"
+	@echo "... lib/FastLED-3.3.2/wiring.s"
 	@echo "... lib/Si5351mcu-0.5/src/si5351mcu.o"
 	@echo "... lib/Si5351mcu-0.5/src/si5351mcu.i"
 	@echo "... lib/Si5351mcu-0.5/src/si5351mcu.s"

@@ -6,3 +6,5 @@ C:\cygwin64\bin\cmake.exe -DCMAKE_BUILD_TYPE=megaatmega2560 -G "CodeBlocks - Uni
 Problems were encountered while collecting compiler information:
 	Unexpected compiler output. This compiler might be unsupported.
 	If you are using GCC/Clang, please report the bug in https://youtrack.jetbrains.com/issues/CPP.
+	Unexpected compiler output. This compiler might be unsupported.
+	If you are using GCC/Clang, please report the bug in https://youtrack.jetbrains.com/issues/CPP.
