@@ -43,10 +43,10 @@ RM = /usr/bin/cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Familia/Desktop/14_band_spectrum_analyzer-master
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Familia/Desktop/14_band_spectrum_analyzer-master/cmake-build-megaatmega2560
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560
 
 # Utility rule file for PLATFORMIO_PROGRAM.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /cygdrive/c/Users/Familia/Desktop/14_band_spectrum_analyzer-m
 include CMakeFiles/PLATFORMIO_PROGRAM.dir/progress.make
 
 CMakeFiles/PLATFORMIO_PROGRAM:
-	cd /cygdrive/c/Users/Familia/Desktop/14_band_spectrum_analyzer-master && "C:\\Users\\Familia/AppData/Local/Programs/Python/Python38/Scripts/platformio.exe" -f -c clion run --target program -emegaatmega2560
+	cd /cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2 && "C:\\Users\\Familia/AppData/Local/Programs/Python/Python38/Scripts/platformio.exe" -f -c clion run --target program -emegaatmega2560
 
 PLATFORMIO_PROGRAM: CMakeFiles/PLATFORMIO_PROGRAM
 PLATFORMIO_PROGRAM: CMakeFiles/PLATFORMIO_PROGRAM.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/PLATFORMIO_PROGRAM.dir/clean:
 .PHONY : CMakeFiles/PLATFORMIO_PROGRAM.dir/clean
 
 CMakeFiles/PLATFORMIO_PROGRAM.dir/depend:
-	cd /cygdrive/c/Users/Familia/Desktop/14_band_spectrum_analyzer-master/cmake-build-megaatmega2560 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Familia/Desktop/14_band_spectrum_analyzer-master /cygdrive/c/Users/Familia/Desktop/14_band_spectrum_analyzer-master /cygdrive/c/Users/Familia/Desktop/14_band_spectrum_analyzer-master/cmake-build-megaatmega2560 /cygdrive/c/Users/Familia/Desktop/14_band_spectrum_analyzer-master/cmake-build-megaatmega2560 /cygdrive/c/Users/Familia/Desktop/14_band_spectrum_analyzer-master/cmake-build-megaatmega2560/CMakeFiles/PLATFORMIO_PROGRAM.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2 /cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2 /cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560 /cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560 /cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/CMakeFiles/PLATFORMIO_PROGRAM.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PLATFORMIO_PROGRAM.dir/depend
 

@@ -1,256 +1,395 @@
-#include "Arduino.h"
-#include "Wire.h"
-#include "Adafruit_NeoPixel.h"
-#include "si5351mcu.h"    //Si5351mcu library
-Si5351mcu Si;             //Si5351mcu Board
-#define PULSE_PIN     13
-#define NOISE         50
-#define ROWS          20  //num of row MAX=20
-#define COLUMNS       14  //num of column
-#define DATA_PIN      9   //led data pin
-#define STROBE_PIN    6   //MSGEQ7 strobe pin
-#define RESET_PIN     7   //MSGEQ7 reset pin
-#define NUMPIXELS    ROWS * COLUMNS
-int sensor=A3;
-int pot_peak_r= A4;
-int pot_peak_g= A5;
-int pot_peak_b= A6;
-int pot_col_r= A7;
-int pot_col_g= A8;
-int pot_col_b= A9;
-int pot_selector_rainbow= A10;
-int pot_selector_custom = A11;
+/*
+/////	Project: 14 Band Spectrum Analyzer using WS2812B addressable "Smart" LED's and MSGEQ7 band-slicing IC's
+/////	Programmed and tested by Daniel Perez, A.K.A GeneratorLabs
+/////	Location: Myrtle Beach, South Carolina, United States of America
+//N//	E-Mail: generatorlabs@gmail.com
+//O//	Date: June 01, 2019
+//E//	Revision: Ver 2.3
+//T//	Target Platform: Arduino Mega2650 with SpeckyBoard
+//E//	License: This program is free software. You can redistribute it and/or modify it under the terms of the GNU General Public License as published by
+//S//	the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+/////	This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+/////	FITNESS FOR A PARTICULAR PURPOSE.	See the GNU General Public License for more details.
+/////	Credits: See acknowledgements & credits section below.
 
-struct Point{
-char x, y;
-char  r,g,b;
-bool active;
-};
-struct TopPoint{
-int position;
-int peakpause;
-};
-Point spectrum[ROWS][COLUMNS];
-TopPoint peakhold[COLUMNS];
-int spectrumValue[COLUMNS];
-long int counter = 0;
-int long pwmpulse = 0;
-bool toggle = false;
+/////	More information about this project, the necessary circuits and a source for parts-kits can be obtained by email (generatorlabs@gmail.com)
+/////	The notes & comments do not consume Arduino memory. They automatically get stripped out before compiled program is uploaded to Arduino.
+/////	Please keep notes in tact for future reference.
+/////
+/////	--- CREDITS & ACKNOWLEDGEMENTS ---
+/////	This sketch is based on a similar project and code from Denis Lanfrit and I respectfully thank Denis for his open source efforts.
+//N//	The original code has been modified to allow a scalable platform with many more bands.
+//O//	The library Si5351mcu is being utilized for programming masterclock IC frequencies. Special thanks to Pavel Milanes for his outstanding work. (https://github.com/pavelmc/Si5351mcu)
+//T//	The library "FastLED" is being utilized to send data to the LED string. This library was developed by Daniel Garcia in 2012 and I respectfully
+//E//	thank him for the amazing work as well. (https://github.com/FastLED/FastLED)
+//S//
+/////	This sketch is written for an Arduino Mega2650. While it is possible to run modified code on a UNO or NANO, the memory limitations of those
+/////	devices makes it impractical for a spectrum analyzer operating with more than 7 bands. The cost difference between the UNO and Mega2560 is so small that
+/////	it makes no sense to cram code into an UNO with only a few bytes to spare.
+/////
+//N//	--- PIN ASSIGNMENTS ---
+//O//
+//T//	Smart LED's use Pin 36 for data. The LED's are defined as a single wire WS2812B type in "SETUP" section.
+//E//	Strobe signal uses pin 7
+//S//	Reset signal uses pin 6
+/////	Analog reading of MSGEQ7 IC1 and IC2 use pin A0 and A1 respectively.
+/////	Make sure all boards, sub-assemblies, LED strings, etc are all tied to a common ground. Failure to do so will result in erratic operation and
+/////	possible circuit or component failure. Treat smart LED's with respect. They are susceptable to electrostatic discharge and improper voltages & polarity!
+/////	This code is being offered AS-IS. End user assumes any responsibility associated with the use of this code.
+*/
+
+#include <si5351mcu.h>    // Library used to program clock generator IC via I2C
+Si5351mcu Si;	// Library instantiation as "Si"
+#include <FastLED.h>    // You must include FastLED version 3.002.006. This library allows communication with each LED
+
+#define HEARTBEAT_PIN 5    // Pin for heartbeat
+#define DATA_PIN 36    // Pin for serial communication with LED string. This pin directs data thru termination resistor R13 on my 'SPECKY-BOARD'.
+#define STROBE_PIN 7    // Pin to instruct MSGEQ7 IC's to inspect next band (band 0 thru 6). Default Pin is 6. Default Pin on SpeckyBoard is 7.
+#define RESET_PIN 6    // Pin to instruct MSGEQ7 to return to band zero and inspect it. Default Pin is 7. Default Pin on SpeckyBoard is 6.
+#define COLUMN 14    // Number of columns in LED project
+#define ROWS 20    // Number of rows (left to right) in LED project.
+#define NUM_LEDS COLUMN * ROWS    // Total number of LED's in the project. Should be equal to COLUMN * ROWS
+#define BRIGHTNESS    50    // Intensity of LED's. The lower the number the longer LED's will last. LED's do have a finite life span when run at high output.
+// It is strongly recommended to keep this number as low as possible. Inexpensive LED strips will have a noticeably shorter life and pull large
+// amounts of current unecessarily. Large surges in current could lead to current starvation and possibly erratic operation. Your power supply must be
+// sized correctly. A string of 300 LED's could potentially require a 18 amp power supply! Avoid drawing white as a color if your power supply is substandard
+// or poorly regulated. For reference, my 294 LED analyzer, with a brightness of 50 and static rainbow columns will average less than
+// 0.5 amps @ 5vdc. If you drive the LED's conseratively you will get good results.
+
+// Noise-floor compensator. Set this number to eliminate noise picked up by circuit. When watching serial monitor, data
+// should be closer to zero with an audio source connected and no music playing.
+#define NOISECOMP 200    // 65 is a good start point. ; My number is 140
+// Use a frequency generator app on a smart phone to adjust Delta. All led's should in selected band should light up when outputting center frequencies at high volume.
+// Test on 63Hz, 160Hz, 400Hz, & 1000Hz. Clock signals being fed into MSGEQ IC's must be accurately tuned or band drifting will occur and cause adjustments to be skewed.
+
+#define DELTA 38    // 48 is a good start point. ; My number 42
+#define LEDTYPE WS2812B    // Type of LED communication protocol used.
+
+// Matrix Definition
+CRGB leds[NUM_LEDS];
+typedef struct ledrgb    // Structure defining the parameters related to each led
+{
+    int r;
+    int g;
+    int b;
+    int hue;
+    int sat;
+    int val;
+    int nled;
+    boolean active;
+} led;
+led colors[COLUMN][ROWS];    // Matrix containing the prog ressive	number of each single LED
+
+//Global Variables
+int MSGEQ_Bands[COLUMN];    //	Setup column array
+int nlevel;    //	Level index
+int hue_rainbow = 0;    //	Global variable	for	the rainbow	variable hue
+int long rainbow_time = 0;
 int long time_change = 0;
-int effect = 0;
-Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, DATA_PIN, NEO_GRB + NEO_KHZ800);
+int long heartbeat = 0;
+int effect = 2;    //	Load this color	effect	on	startup
+bool toggle = false;
+int n = 0;
 
-void clearspectrum();
-void flushMatrix();
-void topSinking();
-int sensorPotent;
-int outputBright;
-int peak_r_read;
-int peak_g_read;
-int peak_b_read;
-int col_r_read;
-int col_g_read;
-int col_b_read;
-int peak_r;
-int peak_g;
-int peak_b;
-int col_r;
-int col_g;
-int col_b;
-int rainbow;
-int custom;
+//Declaring f(x)
+void readMSGEQ7(void);
+void updateRGB(void);
+void updateHSV(void);
+void full_column(void);
+void full_column_dot(void);
+void total_color_hsv(int h, int s, int v);
+void total_color_rgb(int r, int g, int b);
+void rainbow_column(void);
+void rainbow_dot(void);
+void dynamic_rainbow(void);
 
-void setup()
- {
- Si.init(25000000L);
- Si.setFreq(0, 104570);
- Si.setFreq(1, 166280);
- Si.setPower(0, SIOUT_8mA);
- Si.setPower(1, SIOUT_8mA);
- Si.enable(0);
- Si.enable(1);
- pinMode      (STROBE_PIN,    OUTPUT);
- pinMode      (RESET_PIN,     OUTPUT);
- pinMode      (DATA_PIN,      OUTPUT);
- pinMode      (PULSE_PIN,     OUTPUT);
- digitalWrite(PULSE_PIN, HIGH);
- delay(100);
- digitalWrite(PULSE_PIN, LOW);
- delay(100);
- digitalWrite(PULSE_PIN, HIGH);
- delay(100);
- digitalWrite(PULSE_PIN, LOW);
- delay(100);
- digitalWrite(PULSE_PIN, HIGH);
- delay(100);
- pixels.setBrightness(20); //set Brightness
- pixels.begin();
- pixels.show();
- pinMode      (STROBE_PIN, OUTPUT);
- pinMode      (RESET_PIN,  OUTPUT);
- digitalWrite (RESET_PIN,  LOW);
- digitalWrite (STROBE_PIN, LOW);
- delay        (1);
- digitalWrite (RESET_PIN,  HIGH);
- delay        (1);
- digitalWrite (RESET_PIN,  LOW);
- digitalWrite (STROBE_PIN, HIGH);
- delay        (1);
- }
+/*
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////------------------- SETUP --------------------////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+void setup() {
+// Serial.begin(57600);	// Enable this for serial monitor or troubleshooting
 
-void loop()
-  {
-  counter++;
-  clearspectrum();
-  peak_r_read = analogRead(pot_peak_r); //Reads the value of RGB for peak from potentiometer
-  peak_g_read = analogRead(pot_peak_g);
-  peak_b_read = analogRead(pot_peak_b);
-  col_r_read = analogRead(pot_col_r); //Reads the value of RGB for colum from potentiometer
-  col_g_read = analogRead(pot_col_g);
-  col_b_read = analogRead(pot_col_b);
 
-  peak_r = map(peak_r_read, 0, 1023, 0, 255); //Maps value to led intensity
-  peak_g = map(peak_g_read, 0, 1023, 0, 255);
-  peak_b = map(peak_b_read, 0, 1023, 0, 255);
-  col_r = map(col_r_read, 0, 1023, 0, 255);
-  col_g = map(col_g_read, 0, 1023, 0, 255);
-  col_b = map(col_b_read, 0, 1023, 0, 255);
+// Start Masterclock configuration; The remainder of this program will fail if this does not initialize!
+    Si.init(25000000L);    // Library procedure to set up for use with non-default 25.000 MHz xtal
+    Si.setFreq(0, 165000); // Enable the output 0	with specified frequency of 165.000 KHz; Default Pin for SpeckyBoard
+    Si.setFreq(1, 104000); // Enable the output 1	with specified frequency of 104.000 KHz; Default Pin for SpeckyBoard
+    Si.setPower(0, SIOUT_8mA); // Set power output level of clock 0
+    Si.setPower(1, SIOUT_8mA); // Set power output level of clock 1
+    Si.enable(0); // Enable output 0
+    Si.enable(1); // Enable output 1
 
-  if (millis() - pwmpulse > 3000){
-  toggle = !toggle;
-  digitalWrite(PULSE_PIN, toggle);
-  pwmpulse = millis();
-  }
-  digitalWrite(RESET_PIN, HIGH);
-  delayMicroseconds(3000);
-  digitalWrite(RESET_PIN, LOW);
-  for(int i=0; i < COLUMNS; i++){
 
-  digitalWrite(STROBE_PIN, LOW);
-  delayMicroseconds(1000);
 
-  spectrumValue[i] = analogRead(0);
-  if(spectrumValue[i] < 120)spectrumValue[i] = 0;
-  spectrumValue[i] = constrain(spectrumValue[i], 0, 1023);
-  spectrumValue[i] = map(spectrumValue[i], 0, 1023, 0, ROWS);i++;
-  spectrumValue[i] = analogRead(1);
-  if(spectrumValue[i] < 120)spectrumValue[i] = 0;
-  spectrumValue[i] = constrain(spectrumValue[i], 0, 1023);
-  spectrumValue[i] = map(spectrumValue[i], 0, 1023, 0, ROWS);
-  digitalWrite(STROBE_PIN, HIGH);
-  }
+// End Masterclock configuration
+    pinMode(HEARTBEAT_PIN, OUTPUT);
+    pinMode(DATA_PIN, OUTPUT);
+    pinMode(STROBE_PIN, OUTPUT);
+    pinMode(RESET_PIN, OUTPUT);
 
-  rainbow = analogRead(pot_selector_rainbow);
-  custom = analogRead(pot_selector_custom);
+    digitalWrite(HEARTBEAT_PIN, HIGH);    // OK! Si5351 clock passed initializiation!
+    delay(100);
+    digitalWrite(HEARTBEAT_PIN, LOW);
+    delay(100);
+    digitalWrite(HEARTBEAT_PIN, HIGH);
+    delay(100);
+    digitalWrite(HEARTBEAT_PIN, LOW);
+    delay(100);
+    digitalWrite(HEARTBEAT_PIN, HIGH);
+    delay(100);
 
-  for(int j = 0; j < COLUMNS; j++) {
-      for (int i = 0; i < spectrumValue[j]; i++) {
-          if( rainbow != 0) {
-              spectrum[i][COLUMNS - 1 - j].active = 1;
-              if (i <= (ROWS / 4)) {
-                  spectrum[i][COLUMNS - 1 - j].r = 0;
-                  spectrum[i][COLUMNS - 1 - j].g = map(i, 1, (ROWS / 4), 0, 255);
-                  spectrum[i][COLUMNS - 1 - j].b = 255;
-              }
-              if (i <= 2 * (ROWS / 4) && i > (ROWS / 4)) {
-                  spectrum[i][COLUMNS - 1 - j].r = 0;
-                  spectrum[i][COLUMNS - 1 - j].g = 255;
-                  spectrum[i][COLUMNS - 1 - j].b = map(i, (ROWS / 4), 2 * (ROWS / 4), 255, 0);
-              }
-              if (i <= 3 * (ROWS / 4) && i > 2 * (ROWS / 4)) {
-                  spectrum[i][COLUMNS - 1 - j].r = map(i, 2 * (ROWS / 4), 3 * (ROWS / 4), 0, 255);
-                  spectrum[i][COLUMNS - 1 - j].g = 255;
-                  spectrum[i][COLUMNS - 1 - j].b = 0;
-              }
-              if (i <= ROWS && i > 3 * (ROWS / 4)) {
-                  spectrum[i][COLUMNS - 1 - j].r = 255;
-                  spectrum[i][COLUMNS - 1 - j].g = map(i, 3 * (ROWS / 4), ROWS, 0, 255);
-                  spectrum[i][COLUMNS - 1 - j].b = 0;
-              }
-          }
-          if( custom != 0) {
-              spectrum[i][COLUMNS - 1 - j].active = 1;
-              spectrum[i][COLUMNS - 1 - j].r =col_r;           //COLUMN Color red
-              spectrum[i][COLUMNS - 1 - j].g =col_g;         //COLUMN Color green
-              spectrum[i][COLUMNS - 1 - j].b =col_b;           //COLUMN Color blue
-          }
-      }
+    int n = 0;
 
-  if(spectrumValue[j] - 1 > peakhold[j].position)
-  {
-  spectrum[spectrumValue[j] - 1][COLUMNS - 1 - j].r = 0;
-  spectrum[spectrumValue[j] - 1][COLUMNS - 1 - j].g = 0;
-  spectrum[spectrumValue[j] - 1][COLUMNS - 1 - j].b = 0;
-  peakhold[j].position = spectrumValue[j] - 1;
-  peakhold[j].peakpause = 1; //set peakpause
-  }
-  else
-  {
-  spectrum[peakhold[j].position][COLUMNS - 1 - j].active = 1;
-  spectrum[peakhold[j].position][COLUMNS - 1 - j].r = peak_r;  //Peak Color red
-  spectrum[peakhold[j].position][COLUMNS - 1 - j].g = peak_g;  //Peak Color green
-  spectrum[peakhold[j].position][COLUMNS - 1 - j].b = peak_b;    //Peak Color blue
-  }
-  }
-  flushMatrix();
-  if(counter % 3 ==0)topSinking(); //peak delay
-  }
-  void topSinking() {
-  for(int j = 0; j < ROWS; j++)
-  {
-  if(peakhold[j].position > 0 && peakhold[j].peakpause <= 0) peakhold[j].position--;
-  else if(peakhold[j].peakpause > 0) peakhold[j].peakpause--;
-  }
-  }
-  void clearspectrum() {
-  for(int i = 0; i < ROWS; i++)
-  {
-  for(int j = 0; j < COLUMNS; j++)
-  {
-  spectrum[i][j].active = false;
-  }
-  }
-  }
-  void flushMatrix() {
-  for(int j = 0; j < COLUMNS; j++)
-  {
-  if( j % 2 != 0)
-  {
-  for(int i = 0; i < ROWS; i++)
-  {
-  if(spectrum[ROWS - 1 - i][j].active)
-  {
-  pixels.setPixelColor(j * ROWS + i, pixels.Color(
-  spectrum[ROWS - 1 - i][j].r,
-  spectrum[ROWS - 1 - i][j].g,
-  spectrum[ROWS - 1 - i][j].b));
-  }
-  else
-  {
-  pixels.setPixelColor( j * ROWS + i, 0, 0, 0);
-  }
-  }
-  }
-  else
-  {
-  for(int i = 0; i < ROWS; i++)
-  {
-  if(spectrum[i][j].active)
-  {
-  pixels.setPixelColor(j * ROWS + i, pixels.Color(
-  spectrum[i][j].r,
-  spectrum[i][j].g,
-  spectrum[i][j].b));
-  }
-  else
-  {
-  pixels.setPixelColor( j * ROWS + i, 0, 0, 0);
-  }
-  }
-  }
-  }
-  sensorPotent = analogRead(sensor);
-  outputBright = map(sensorPotent, 0, 1023, 0, 255);
-  pixels.setBrightness(outputBright);
-  pixels.show();
-  }
+    for (int i = 0; i < COLUMN; i++)    //Sequentially number the leds
+    {
+        for (int j = 0; j < ROWS; j++) {
+            colors[i][j].nled = n;
+            n++;
+        }
+    }
+
+    FastLED.addLeds<LEDTYPE, DATA_PIN, GRB>(leds, NUM_LEDS).setCorrection(TypicalLEDStrip);
+    FastLED.setBrightness(BRIGHTNESS);
+    rainbow_time = millis();
+    time_change = millis();
+}
+/*
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////-------------------- LOOP --------------------////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+void loop() {
+    readMSGEQ7();    // Call to function that reads MSGEQ7 IC's via analogue inputs.
+
+    if (millis() - time_change > 1000)    // Code that establishes how often to change effect. 1000 = 1 Second
+    {
+        effect = 2;    // Enable this line to set a fixed mode
+//effect++;	// Enable this line to cycle through different modes
+        if (effect > 7) {
+            effect = 0;
+        }
+        time_change = millis();
+    }
+
+    if (millis() - heartbeat >
+        3000)    // Hearbeat LED to indicate that code has passed init and is actually looping through routines
+    {
+        toggle = !toggle;
+        digitalWrite(HEARTBEAT_PIN, toggle);
+        heartbeat = millis();
+    }
+
+    switch (effect)    // Case logic to determine which color effect to use
+    {
+        case 0:    // Full column; each band different color; color gradient within each band rainbow_dot();
+            full_column();
+            updateHSV();
+            break;
+
+        case 1:    // Full column; each band the same color; gradual simultaneous color change across all bands
+            if (millis() - rainbow_time > 15) {
+                dynamic_rainbow();
+                rainbow_time = millis();
+            }
+            full_column();
+            updateHSV();
+            break;
+
+        case 2:    // Full column; each band a different static rainbow color for the specified interval
+            if (millis() - rainbow_time > 600) {
+                rainbow_column();
+                rainbow_time = millis();
+            }
+            full_column();
+            updateHSV();
+            break;
+
+        case 3:    // Full column; all bands same static color
+            if (millis() - rainbow_time > 15) {
+                total_color_hsv(255, 255, 255);
+                rainbow_time = millis();
+            }
+            full_column();
+            updateHSV();
+            break;
+
+        case 4:    // Dot column; each column a different static rainbow color
+            if (millis() - rainbow_time > 15) {
+                rainbow_dot();
+                rainbow_time = millis();
+            }
+            full_column_dot();;
+            updateHSV();
+            break;
+        case 5:    // Dot column; each band the same color; gradual simultaneous color change across all bands
+            if (millis() - rainbow_time > 15) {
+                dynamic_rainbow();
+                rainbow_time = millis();
+            }
+            full_column_dot();
+            updateHSV();
+            break;
+
+        case 6:    // Dot column; each band a different static rainbow color
+            if (millis() - rainbow_time > 15) {
+                rainbow_column();
+                rainbow_time = millis();
+            }
+            full_column_dot();
+            updateHSV();
+            break;
+
+        case 7:    // Dot column; all bands same static color total_color_hsv(55, 255, 255);
+            full_column_dot();
+            updateHSV();
+            break;
+    }
+    delay(30);    // Refresh rate; Values 20 thru 30 should look realistic
+}
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////---------------- FUNCTIONS --------------------////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+void readMSGEQ7(void)    // Function that reads the 7 bands of the audio input.
+{
+//digitalWrite(STROBE_PIN, HIGH);	// Make sure Strobe line is low before entering loop.
+
+    digitalWrite(RESET_PIN, HIGH);    // Part 1 of Reset Pulse. Reset pulse duration must be 100nS minimum.
+    digitalWrite(RESET_PIN, LOW);    // Part 2 of Reset pulse. These two events consume more than 100nS in CPU time.
+
+    for (int band = 0; band <
+                       COLUMN; band++) {    // Loop that will increment counter that AnalogRead uses to determine which band to store data for.
+        digitalWrite(STROBE_PIN, LOW);    // Re-Set Strobe to LOW on each iteration of loop.
+        delayMicroseconds(30);    // Necessary delay required by MSGEQ7 for proper timing.
+        MSGEQ_Bands[band] = analogRead(0) - NOISECOMP;    // Saves the reading of the amplitude voltage on Analog Pin 0.
+        // Serial.print(band);
+        // Serial.print("	");
+        // Serial.print(MSGEQ_Bands[band]);
+        // Serial.print("	");
+        band++;
+
+        MSGEQ_Bands[band] = analogRead(1) - NOISECOMP;    // Saves the reading of the amplitude voltage on Analog Pin 1.
+        // Serial.print(band);
+        // Serial.print("	");
+        // Serial.print(MSGEQ_Bands[band]);
+        // Serial.print("	");
+        digitalWrite(STROBE_PIN, HIGH);
+    }
+    // Serial.println();
+    //digitalWrite(STROBE_PIN, LOW);	// Make sure Strobe line is low before entering loop.
+}
+
+void updateRGB(void) {
+    for (int i = 0; i < COLUMN; i++) {
+        for (int j = 0; j < ROWS; j++) {
+            if (colors[i][j].active == 1) {
+                leds[colors[i][j].nled] = CRGB(colors[i][j].r, colors[i][j].g, colors[i][j].b);
+            } else {
+                leds[colors[i][j].nled] = CRGB::Black;
+            }
+            FastLED.show();
+        }
+    }
+}
+
+void updateHSV(void) {
+    for (int i = 0; i < COLUMN; i++) {
+        for (int j = 0; j < ROWS; j++) {
+            if (colors[i][j].active == 1) {
+                leds[colors[i][j].nled] = CHSV(colors[i][j].hue, colors[i][j].sat, colors[i][j].val);
+            } else {
+                leds[colors[i][j].nled] = CRGB::Black;
+            }
+
+        }
+    }
+    FastLED.show();
+}
+
+void full_column(void) {
+    nlevel = 0;
+    for (int i = 0; i < COLUMN; i++) {
+        nlevel = MSGEQ_Bands[i] / DELTA;
+        for (int j = 0; j < ROWS; j++) {
+            if (j <= nlevel) {
+                colors[i][j].active = 1;
+            } else {
+                colors[i][j].active = 0;
+            }
+        }
+//colors[i][peaks[i]].active=1;
+    }
+}
+
+void full_column_dot(void) {
+    nlevel = 0;
+    for (int i = 0; i < COLUMN; i++) {
+        nlevel = MSGEQ_Bands[i] / DELTA;
+        for (int j = 0; j < ROWS; j++) {
+            if (j == nlevel) {
+                colors[i][j].active = 1;
+            } else {
+                colors[i][j].active = 0;
+            }
+        }
+//colors[i][peaks[i]].active=1;
+    }
+}
+
+void total_color_hsv(int h, int s, int v) {
+    for (int i = 0; i < COLUMN; i++) {
+        for (int j = 0; j < ROWS; j++) {
+            colors[i][j].hue = h;
+            colors[i][j].sat = s;
+            colors[i][j].val = v;
+        }
+    }
+}
+
+void total_color_rgb(int r, int g, int b) {
+    for (int i = 0; i < COLUMN; i++) {
+        for (int j = 0; j < ROWS; j++) {
+            colors[i][j].r = r;
+            colors[i][j].g = g;
+            colors[i][j].b = b;
+        }
+    }
+}
+
+void rainbow_column(void) {
+//int n = 18;
+    for (int i = 0; i < COLUMN; i++) {
+        for (int j = 0; j < ROWS; j++) {
+            colors[i][j].hue = n;
+            colors[i][j].sat = 230;
+            colors[i][j].val = 240;
+        }
+        n += 18;    //36 For 7 Columns
+    }
+}
+
+void rainbow_dot(void) {
+    int n = 36;
+    for (int i = 0; i < COLUMN; i++) {
+        for (int j = 0; j < ROWS; j++) {
+            colors[i][j].hue = n;
+            colors[i][j].sat = 230;
+            colors[i][j].val = 240;
+            n += 5;
+        }
+    }
+}
+
+void dynamic_rainbow(void) {
+    for (int i = 0; i < COLUMN; i++) {
+        for (int j = 0; j < ROWS; j++) {
+            colors[i][j].hue = hue_rainbow;
+            colors[i][j].sat = 230;
+            colors[i][j].val = 240;
+        }
+    }
+    hue_rainbow++;
+}
