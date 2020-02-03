@@ -91,7 +91,14 @@ int effect = 2;    //	Load this color	effect	on	startup
 bool toggle = false;
 int n = 0;
 
+int sensor= A4;
+int selector = A5;
+int effect_selected;
+int brightness;
+
 //Declaring f(x)
+void read_selector();
+void brightness_read();
 void readMSGEQ7(void);
 void updateRGB(void);
 void updateHSV(void);
@@ -151,7 +158,8 @@ void setup() {
     }
 
     FastLED.addLeds<LEDTYPE, DATA_PIN, GRB>(leds, NUM_LEDS).setCorrection(TypicalLEDStrip);
-    FastLED.setBrightness(BRIGHTNESS);
+    brightness_read();
+    FastLED.setBrightness(brightness);
     rainbow_time = millis();
     time_change = millis();
 }
@@ -165,7 +173,8 @@ void loop() {
 
     if (millis() - time_change > 1000)    // Code that establishes how often to change effect. 1000 = 1 Second
     {
-        effect = 2;    // Enable this line to set a fixed mode
+        read_selector();
+        effect = effect_selected;   // Enable this line to set a fixed mode
 //effect++;	// Enable this line to cycle through different modes
         if (effect > 7) {
             effect = 0;
@@ -392,4 +401,15 @@ void dynamic_rainbow(void) {
         }
     }
     hue_rainbow++;
+}
+
+void brightness_read() {
+    int brightness_Analog_read = analogRead(sensor);
+    brightness = map(brightness_Analog_read, 0, 1023, 0, 255);
+}
+
+void read_selector() {
+    int selector_analog_Read = analogRead(selector);
+    float selector_read = map(selector_analog_Read, 0, 1023, 0, 7.9);
+    effect_selected = static_cast<int>(selector_read);
 }
