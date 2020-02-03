@@ -95,8 +95,15 @@ int sensor= A4;
 int selector = A5;
 int effect_selected;
 int brightness;
+int pot_pin_h = A6;
+int pot_pin_s = A7;
+int pot_pin_v = A8;
+int h_val;
+int v_val;
+int s_val;
 
 //Declaring f(x)
+void customHSV_read();
 void read_selector();
 void brightness_read();
 void readMSGEQ7(void);
@@ -217,7 +224,8 @@ void loop() {
 
         case 3:    // Full column; all bands same static color
             if (millis() - rainbow_time > 15) {
-                total_color_hsv(255, 255, 255);
+                customHSV_read();
+                total_color_hsv(h_val, s_val, v_val);
                 rainbow_time = millis();
             }
             full_column();
@@ -251,7 +259,8 @@ void loop() {
             break;
 
         case 7:    // Dot column; all bands same static color
-            total_color_hsv(55, 255, 255);
+            customHSV_read();
+            total_color_hsv(h_val, s_val, v_val);
             full_column_dot();
             updateHSV();
             break;
@@ -415,3 +424,12 @@ void read_selector() {
     effect_selected = static_cast<int>(selector_read);
 }
 
+void customHSV_read(){
+    int pot_read_h = analogRead(pot_pin_h);
+    int pot_read_s = analogRead(pot_pin_s);
+    int pot_read_v = analogRead(pot_pin_v);
+
+    h_val = map(pot_read_h, 0, 1023, 0, 255);
+    s_val = map(pot_read_s, 0, 1023, 0, 255);
+    v_val = map(pot_read_v, 0, 1023, 0, 255);
+}
