@@ -1,10 +1,22 @@
-C:\cygwin64\bin\cmake.exe -DCMAKE_BUILD_TYPE=megaatmega2560 -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2
+C:\Users\eduar\.CLion2019.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=megaatmega2560 -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2
+-- The C compiler identification is GNU 7.4.0
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++.exe
+-- Check for working CXX compiler: /usr/bin/c++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560
+-- Build files have been written to: /cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560
 
-Problems were encountered while collecting compiler information:
-	Unexpected compiler output. This compiler might be unsupported.
-	If you are using GCC/Clang, please report the bug in https://youtrack.jetbrains.com/issues/CPP.
-	Unexpected compiler output. This compiler might be unsupported.
-	If you are using GCC/Clang, please report the bug in https://youtrack.jetbrains.com/issues/CPP.
+Cannot get compiler information:
+	Cannot run program "C:\Users\eduar\.platformio\packages\toolchain-atmelavr@1.50400.190710\bin\avr-gcc.exe" (in directory "C:\Users\eduar\Desktop\14_band_spectrum_analyzer\V2\cmake-build-megaatmega2560"): CreateProcess error=2, The system cannot find the file specified
+	Cannot run program "C:\Users\eduar\.platformio\packages\toolchain-atmelavr@1.50400.190710\bin\avr-g++.exe" (in directory "C:\Users\eduar\Desktop\14_band_spectrum_analyzer\V2\cmake-build-megaatmega2560"): CreateProcess error=2, The system cannot find the file specified

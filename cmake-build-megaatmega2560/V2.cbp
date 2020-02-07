@@ -8,47 +8,47 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560"/>
+				<Option working_dir="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560"/>
+				<Option working_dir="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Z_DUMMY_TARGET">
-				<Option output="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Z_DUMMY_TARGET.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560"/>
+				<Option output="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Z_DUMMY_TARGET.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/include"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/src"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/framework-arduino-avr/cores/arduino"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/framework-arduino-avr/variants/mega"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/lib/Adafruit NeoPixel_ID28"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/lib/Si5351mcu/src"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/framework-arduino-avr/libraries/HID/src"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/framework-arduino-avr/libraries/SPI/src"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/framework-arduino-avr/libraries/Wire/src"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/toolchain-atmelavr@1.50400.190710/avr/include"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/toolchain-atmelavr@1.50400.190710/lib/gcc/avr/5.4.0/include"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/toolchain-atmelavr@1.50400.190710/lib/gcc/avr/5.4.0/include-fixed"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/tool-unity"/>
+					<Add directory="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/include"/>
+					<Add directory="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/src"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/framework-arduino-avr/cores/arduino"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/framework-arduino-avr/variants/mega"/>
+					<Add directory="C:/Users/eduar/.platformio/lib/Adafruit NeoPixel_ID28"/>
+					<Add directory="C:/Users/eduar/.platformio/lib/Si5351mcu/src"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/framework-arduino-avr/libraries/HID/src"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/framework-arduino-avr/libraries/SPI/src"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/framework-arduino-avr/libraries/Wire/src"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/toolchain-atmelavr@1.50400.190710/avr/include"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/toolchain-atmelavr@1.50400.190710/lib/gcc/avr/5.4.0/include"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/toolchain-atmelavr@1.50400.190710/lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/tool-unity"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
@@ -57,34 +57,34 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Z_DUMMY_TARGET/fast">
-				<Option output="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Z_DUMMY_TARGET.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560"/>
+				<Option output="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Z_DUMMY_TARGET.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/include"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/src"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/framework-arduino-avr/cores/arduino"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/framework-arduino-avr/variants/mega"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/lib/Adafruit NeoPixel_ID28"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/lib/Si5351mcu/src"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/framework-arduino-avr/libraries/HID/src"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/framework-arduino-avr/libraries/SPI/src"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/framework-arduino-avr/libraries/Wire/src"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/toolchain-atmelavr@1.50400.190710/avr/include"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/toolchain-atmelavr@1.50400.190710/lib/gcc/avr/5.4.0/include"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/toolchain-atmelavr@1.50400.190710/lib/gcc/avr/5.4.0/include-fixed"/>
-					<Add directory="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/C:/Users/Familia/.platformio/packages/tool-unity"/>
+					<Add directory="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/include"/>
+					<Add directory="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/src"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/framework-arduino-avr/cores/arduino"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/framework-arduino-avr/variants/mega"/>
+					<Add directory="C:/Users/eduar/.platformio/lib/Adafruit NeoPixel_ID28"/>
+					<Add directory="C:/Users/eduar/.platformio/lib/Si5351mcu/src"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/framework-arduino-avr/libraries/HID/src"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/framework-arduino-avr/libraries/SPI/src"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/framework-arduino-avr/libraries/Wire/src"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/toolchain-atmelavr@1.50400.190710/avr/include"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/toolchain-atmelavr@1.50400.190710/lib/gcc/avr/5.4.0/include"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/toolchain-atmelavr@1.50400.190710/lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="C:/Users/eduar/.platformio/packages/tool-unity"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
@@ -93,702 +93,702 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560"/>
+				<Option working_dir="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PLATFORMIO_REBUILD_PROJECT_INDEX">
-				<Option working_dir="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560"/>
+				<Option working_dir="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_REBUILD_PROJECT_INDEX"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_REBUILD_PROJECT_INDEX"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PLATFORMIO_UPLOADFS">
-				<Option working_dir="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560"/>
+				<Option working_dir="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPLOADFS"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPLOADFS"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PLATFORMIO_PROGRAM">
-				<Option working_dir="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560"/>
+				<Option working_dir="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_PROGRAM"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_PROGRAM"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PLATFORMIO_BUILD_DEBUG">
-				<Option working_dir="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560"/>
+				<Option working_dir="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_BUILD_DEBUG"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_BUILD_DEBUG"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PLATFORMIO_BUILD_VERBOSE">
-				<Option working_dir="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560"/>
+				<Option working_dir="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_BUILD_VERBOSE"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_BUILD_VERBOSE"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PLATFORMIO_UPDATE_ALL">
-				<Option working_dir="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560"/>
+				<Option working_dir="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPDATE_ALL"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPDATE_ALL"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PLATFORMIO_BUILD">
-				<Option working_dir="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560"/>
+				<Option working_dir="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_BUILD"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_BUILD"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PLATFORMIO_MONITOR">
-				<Option working_dir="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560"/>
+				<Option working_dir="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_MONITOR"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_MONITOR"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PLATFORMIO_UPLOAD">
-				<Option working_dir="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560"/>
+				<Option working_dir="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPLOAD"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPLOAD"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PLATFORMIO_CLEAN">
-				<Option working_dir="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560"/>
+				<Option working_dir="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_CLEAN"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_CLEAN"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PLATFORMIO_DEVICE_LIST">
-				<Option working_dir="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560"/>
+				<Option working_dir="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_DEVICE_LIST"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_DEVICE_LIST"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PLATFORMIO_TEST">
-				<Option working_dir="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560"/>
+				<Option working_dir="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_TEST"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_TEST"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.cpp">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Adafruit_NeoPixel-1.3.4/CONTRIBUTING.md">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/CONTRIBUTING.md">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Adafruit_NeoPixel-1.3.4/README.md">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/README.md">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Adafruit_NeoPixel-1.3.4/esp8266.c">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/esp8266.c">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Adafruit_NeoPixel-1.3.4/examples/RGBWstrandtest/RGBWstrandtest.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/examples/RGBWstrandtest/RGBWstrandtest.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestArduinoBLE/StrandtestArduinoBLE.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestArduinoBLE/StrandtestArduinoBLE.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestArduinoBLECallback/StrandtestArduinoBLECallback.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestArduinoBLECallback/StrandtestArduinoBLECallback.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.cpp">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/StrandtestBLE.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/StrandtestBLE.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Adafruit_NeoPixel-1.3.4/examples/buttoncycler/buttoncycler.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/examples/buttoncycler/buttoncycler.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Adafruit_NeoPixel-1.3.4/examples/simple/simple.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/examples/simple/simple.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Adafruit_NeoPixel-1.3.4/examples/simple_new_operator/simple_new_operator.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/examples/simple_new_operator/simple_new_operator.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Adafruit_NeoPixel-1.3.4/examples/strandtest/strandtest.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/examples/strandtest/strandtest.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Adafruit_NeoPixel-1.3.4/examples/strandtest_wheel/strandtest_wheel.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/examples/strandtest_wheel/strandtest_wheel.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Adafruit_NeoPixel-1.3.4/keywords.txt">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/keywords.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Adafruit_NeoPixel-1.3.4/library.properties">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/library.properties">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/.gitignore">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/.gitignore">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/FastLED.cpp">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/FastLED.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/FastLED.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/FastLED.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/PORTING.md">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/PORTING.md">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/README.md">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/README.md">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/bitswap.cpp">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/bitswap.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/bitswap.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/bitswap.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/chipsets.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/chipsets.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/color.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/color.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/colorpalettes.cpp">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/colorpalettes.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/colorpalettes.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/colorpalettes.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/colorutils.cpp">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/colorutils.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/colorutils.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/colorutils.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/component.mk">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/component.mk">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/controller.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/controller.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/cpp_compat.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/cpp_compat.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/dmx.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/dmx.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/docs/mainpage.dox">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/docs/mainpage.dox">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/AnalogOutput/AnalogOutput.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/AnalogOutput/AnalogOutput.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/Blink/Blink.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Blink/Blink.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/ColorPalette/ColorPalette.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/ColorPalette/ColorPalette.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/ColorTemperature/ColorTemperature.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/ColorTemperature/ColorTemperature.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/Cylon/Cylon.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Cylon/Cylon.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/DemoReel100/DemoReel100.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/DemoReel100/DemoReel100.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/Fire2012/Fire2012.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Fire2012/Fire2012.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/Fire2012WithPalette/Fire2012WithPalette.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Fire2012WithPalette/Fire2012WithPalette.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/FirstLight/FirstLight.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/FirstLight/FirstLight.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/Multiple/ArrayOfLedArrays/ArrayOfLedArrays.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Multiple/ArrayOfLedArrays/ArrayOfLedArrays.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/Multiple/MirroringSample/MirroringSample.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Multiple/MirroringSample/MirroringSample.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/Multiple/MultiArrays/MultiArrays.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Multiple/MultiArrays/MultiArrays.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/Multiple/MultipleStripsInOneArray/MultipleStripsInOneArray.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Multiple/MultipleStripsInOneArray/MultipleStripsInOneArray.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/Multiple/OctoWS2811Demo/OctoWS2811Demo.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Multiple/OctoWS2811Demo/OctoWS2811Demo.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/Multiple/ParallelOutputDemo/ParallelOutputDemo.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Multiple/ParallelOutputDemo/ParallelOutputDemo.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/Noise/Noise.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Noise/Noise.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/NoisePlayground/NoisePlayground.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/NoisePlayground/NoisePlayground.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/NoisePlusPalette/NoisePlusPalette.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/NoisePlusPalette/NoisePlusPalette.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/Pintest/Pintest.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Pintest/Pintest.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/Ports/PJRCSpectrumAnalyzer/PJRCSpectrumAnalyzer.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Ports/PJRCSpectrumAnalyzer/PJRCSpectrumAnalyzer.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/RGBCalibrate/RGBCalibrate.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/RGBCalibrate/RGBCalibrate.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/RGBSetDemo/RGBSetDemo.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/RGBSetDemo/RGBSetDemo.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/SmartMatrix/SmartMatrix.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/SmartMatrix/SmartMatrix.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/examples/XYMatrix/XYMatrix.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/XYMatrix/XYMatrix.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/extras/AppleII.s65">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/extras/AppleII.s65">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/extras/FastLED6502.s65">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/extras/FastLED6502.s65">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/extras/RainbowDemo.bin.zip">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/extras/RainbowDemo.bin.zip">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/extras/RainbowDemo.s65">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/extras/RainbowDemo.s65">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/fastled_config.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/fastled_config.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/fastled_delay.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/fastled_delay.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/fastled_progmem.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/fastled_progmem.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/fastpin.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/fastpin.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/fastspi.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/fastspi.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/fastspi_bitbang.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/fastspi_bitbang.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/fastspi_dma.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/fastspi_dma.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/fastspi_nop.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/fastspi_nop.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/fastspi_ref.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/fastspi_ref.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/fastspi_types.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/fastspi_types.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/hsv2rgb.cpp">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/hsv2rgb.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/hsv2rgb.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/hsv2rgb.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/keywords.txt">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/keywords.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/led_sysdefs.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/led_sysdefs.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/lib8tion.cpp">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/lib8tion.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/lib8tion.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/lib8tion.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/lib8tion/math8.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/lib8tion/math8.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/lib8tion/random8.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/lib8tion/random8.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/lib8tion/scale8.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/lib8tion/scale8.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/lib8tion/trig8.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/lib8tion/trig8.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/library.json">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/library.json">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/library.properties">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/library.properties">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/noise.cpp">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/noise.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/noise.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/noise.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/pixelset.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/pixelset.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/pixeltypes.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/pixeltypes.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms.cpp">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/common/m0clockless.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/common/m0clockless.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/d21/clockless_arm_d21.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/d21/clockless_arm_d21.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/d21/fastled_arm_d21.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/d21/fastled_arm_d21.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/d21/fastpin_arm_d21.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/d21/fastpin_arm_d21.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/d21/led_sysdefs_arm_d21.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/d21/led_sysdefs_arm_d21.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/d51/README.txt">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/d51/README.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/d51/clockless_arm_d51.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/d51/clockless_arm_d51.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/d51/fastled_arm_d51.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/d51/fastled_arm_d51.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/d51/fastpin_arm_d51.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/d51/fastpin_arm_d51.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/d51/led_sysdefs_arm_d51.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/d51/led_sysdefs_arm_d51.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/k20/clockless_arm_k20.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k20/clockless_arm_k20.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/k20/clockless_block_arm_k20.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k20/clockless_block_arm_k20.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/k20/fastled_arm_k20.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k20/fastled_arm_k20.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/k20/fastpin_arm_k20.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k20/fastpin_arm_k20.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/k20/fastspi_arm_k20.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k20/fastspi_arm_k20.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/k20/led_sysdefs_arm_k20.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k20/led_sysdefs_arm_k20.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/k20/octows2811_controller.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k20/octows2811_controller.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/k20/smartmatrix_t3.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k20/smartmatrix_t3.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/k20/ws2812serial_controller.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k20/ws2812serial_controller.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/k66/clockless_arm_k66.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k66/clockless_arm_k66.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/k66/clockless_block_arm_k66.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k66/clockless_block_arm_k66.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/k66/fastled_arm_k66.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k66/fastled_arm_k66.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/k66/fastpin_arm_k66.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k66/fastpin_arm_k66.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/k66/fastspi_arm_k66.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k66/fastspi_arm_k66.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/k66/led_sysdefs_arm_k66.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k66/led_sysdefs_arm_k66.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/kl26/clockless_arm_kl26.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/kl26/clockless_arm_kl26.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/kl26/fastled_arm_kl26.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/kl26/fastled_arm_kl26.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/kl26/fastpin_arm_kl26.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/kl26/fastpin_arm_kl26.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/kl26/fastspi_arm_kl26.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/kl26/fastspi_arm_kl26.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/kl26/led_sysdefs_arm_kl26.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/kl26/led_sysdefs_arm_kl26.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/mxrt1062/block_clockless_arm_mxrt1062.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/mxrt1062/block_clockless_arm_mxrt1062.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/mxrt1062/clockless_arm_mxrt1062.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/mxrt1062/clockless_arm_mxrt1062.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/mxrt1062/fastled_arm_mxrt1062.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/mxrt1062/fastled_arm_mxrt1062.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/mxrt1062/fastpin_arm_mxrt1062.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/mxrt1062/fastpin_arm_mxrt1062.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/mxrt1062/fastspi_arm_mxrt1062.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/mxrt1062/fastspi_arm_mxrt1062.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/mxrt1062/led_sysdefs_arm_mxrt1062.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/mxrt1062/led_sysdefs_arm_mxrt1062.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/nrf51/clockless_arm_nrf51.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf51/clockless_arm_nrf51.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/nrf51/fastled_arm_nrf51.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf51/fastled_arm_nrf51.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/nrf51/fastpin_arm_nrf51.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf51/fastpin_arm_nrf51.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/nrf51/fastspi_arm_nrf51.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf51/fastspi_arm_nrf51.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/nrf51/led_sysdefs_arm_nrf51.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf51/led_sysdefs_arm_nrf51.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/arbiter_nrf52.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/arbiter_nrf52.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/clockless_arm_nrf52.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/clockless_arm_nrf52.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/fastled_arm_nrf52.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/fastled_arm_nrf52.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/fastpin_arm_nrf52.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/fastpin_arm_nrf52.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/fastpin_arm_nrf52_variants.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/fastpin_arm_nrf52_variants.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/fastspi_arm_nrf52.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/fastspi_arm_nrf52.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/led_sysdefs_arm_nrf52.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/led_sysdefs_arm_nrf52.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/sam/clockless_arm_sam.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/sam/clockless_arm_sam.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/sam/clockless_block_arm_sam.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/sam/clockless_block_arm_sam.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/sam/fastled_arm_sam.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/sam/fastled_arm_sam.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/sam/fastpin_arm_sam.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/sam/fastpin_arm_sam.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/sam/fastspi_arm_sam.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/sam/fastspi_arm_sam.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/sam/led_sysdefs_arm_sam.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/sam/led_sysdefs_arm_sam.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/stm32/clockless_arm_stm32.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/stm32/clockless_arm_stm32.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/stm32/cm3_regs.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/stm32/cm3_regs.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/stm32/fastled_arm_stm32.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/stm32/fastled_arm_stm32.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/stm32/fastpin_arm_stm32.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/stm32/fastpin_arm_stm32.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/arm/stm32/led_sysdefs_arm_stm32.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/stm32/led_sysdefs_arm_stm32.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/avr/clockless_trinket.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/avr/clockless_trinket.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/avr/fastled_avr.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/avr/fastled_avr.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/avr/fastpin_avr.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/avr/fastpin_avr.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/avr/fastspi_avr.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/avr/fastspi_avr.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/avr/led_sysdefs_avr.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/avr/led_sysdefs_avr.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/esp/32/clockless_block_esp32.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/32/clockless_block_esp32.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/esp/32/clockless_esp32.h.orig">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/32/clockless_esp32.h.orig">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/esp/32/clockless_i2s_esp32.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/32/clockless_i2s_esp32.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/esp/32/clockless_rmt_esp32.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/32/clockless_rmt_esp32.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/esp/32/fastled_esp32.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/32/fastled_esp32.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/esp/32/fastpin_esp32.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/32/fastpin_esp32.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/esp/32/led_sysdefs_esp32.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/32/led_sysdefs_esp32.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/esp/8266/clockless_block_esp8266.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/8266/clockless_block_esp8266.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/esp/8266/clockless_esp8266.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/8266/clockless_esp8266.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/esp/8266/fastled_esp8266.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/8266/fastled_esp8266.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/esp/8266/fastpin_esp8266.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/8266/fastpin_esp8266.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/platforms/esp/8266/led_sysdefs_esp8266.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/8266/led_sysdefs_esp8266.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/power_mgt.cpp">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/power_mgt.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/power_mgt.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/power_mgt.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/preview_changes.txt">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/preview_changes.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/release_notes.md">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/release_notes.md">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/FastLED-3.3.2/wiring.cpp">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/wiring.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Si5351mcu-0.5/.gitignore">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Si5351mcu-0.5/.gitignore">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Si5351mcu-0.5/ChangeLog.md">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Si5351mcu-0.5/ChangeLog.md">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Si5351mcu-0.5/README.md">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Si5351mcu-0.5/README.md">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Si5351mcu-0.5/examples/si5351_mcu/si5351_mcu.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Si5351mcu-0.5/examples/si5351_mcu/si5351_mcu.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Si5351mcu-0.5/examples/si5351_mcu_simple/si5351_mcu_simple.ino">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Si5351mcu-0.5/examples/si5351_mcu_simple/si5351_mcu_simple.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Si5351mcu-0.5/keywords.txt">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Si5351mcu-0.5/keywords.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Si5351mcu-0.5/library.properties">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Si5351mcu-0.5/library.properties">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Si5351mcu-0.5/licence.txt">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Si5351mcu-0.5/licence.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Si5351mcu-0.5/src/si5351mcu.cpp">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Si5351mcu-0.5/src/si5351mcu.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/lib/Si5351mcu-0.5/src/si5351mcu.h">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/lib/Si5351mcu-0.5/src/si5351mcu.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/src/Readme.txt">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/src/Readme.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/src/main.cpp">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/src/main.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/CMakeListsPrivate.txt">
+		<Unit filename="/cygdrive/c/Users/eduar/Desktop/14_band_spectrum_analyzer/V2/CMakeListsPrivate.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

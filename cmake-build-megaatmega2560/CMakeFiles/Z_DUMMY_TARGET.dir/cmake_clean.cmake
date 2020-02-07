@@ -14,8 +14,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/wiring.cpp.o"
   "CMakeFiles/Z_DUMMY_TARGET.dir/lib/Si5351mcu-0.5/src/si5351mcu.cpp.o"
   "CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.o"
-  "Z_DUMMY_TARGET.pdb"
   "Z_DUMMY_TARGET.exe"
+  "Z_DUMMY_TARGET.pdb"
   "libZ_DUMMY_TARGET.dll.a"
 )
 
