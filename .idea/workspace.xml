@@ -49,10 +49,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="No idea what is the change">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="No idea what is the change" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,7 +223,7 @@
       <workItem from="1580847365832" duration="49000" />
       <workItem from="1580990109342" duration="740000" />
       <workItem from="1581068906119" duration="755000" />
-      <workItem from="1581180618520" duration="1208000" />
+      <workItem from="1581180618520" duration="1408000" />
     </task>
     <task id="LOCAL-00001" summary="First modification of V2">
       <created>1580740344739</created>
