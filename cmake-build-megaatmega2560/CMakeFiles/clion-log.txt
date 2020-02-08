@@ -1,10 +1,4 @@
-C:\cygwin64\bin\cmake.exe -DCMAKE_BUILD_TYPE=megaatmega2560 -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2
+"/Users/eduard/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=megaatmega2560 -DCMAKE_MAKE_PROGRAM=/usr/bin/make -G "CodeBlocks - Unix Makefiles" /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/Users/Familia/Desktop/Edu/14_band_spectrum_analyzer-master/V2/cmake-build-megaatmega2560
-
-Problems were encountered while collecting compiler information:
-	Unexpected compiler output. This compiler might be unsupported.
-	If you are using GCC/Clang, please report the bug in https://youtrack.jetbrains.com/issues/CPP.
-	Unexpected compiler output. This compiler might be unsupported.
-	If you are using GCC/Clang, please report the bug in https://youtrack.jetbrains.com/issues/CPP.
+-- Build files have been written to: /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560
