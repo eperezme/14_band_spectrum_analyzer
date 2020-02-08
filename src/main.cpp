@@ -92,13 +92,13 @@ int effect = 2;    //	Load this color	effect	on	startup
 bool toggle = false;
 int n = 0;
 
-int sensor = A4;
-int selector = A5;
+int sensor = A4; // Brightness Selector
+int selector = A5; //   RGB Effect Selector
 int effect_selected;
 int brightness;
-int pot_pin_h = A6;
-int pot_pin_s = A7;
-int pot_pin_v = A8;
+int pot_pin_h = A6; //  H pot
+int pot_pin_s = A7; //  S pot
+int pot_pin_v = A8; //  V pot
 int h_val;
 int v_val;
 int s_val;

@@ -51,6 +51,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="No idea what is the change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,6 +226,7 @@
       <workItem from="1580847365832" duration="49000" />
       <workItem from="1580990109342" duration="740000" />
       <workItem from="1581068906119" duration="755000" />
+      <workItem from="1581180618520" duration="1208000" />
     </task>
     <task id="LOCAL-00001" summary="First modification of V2">
       <created>1580740344739</created>
@@ -358,10 +360,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580744373853" />
-    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580740738976">
+    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581180700078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580740738976" />
+    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581180700078" />
   </component>
   <component name="masterDetails">
     <states>
