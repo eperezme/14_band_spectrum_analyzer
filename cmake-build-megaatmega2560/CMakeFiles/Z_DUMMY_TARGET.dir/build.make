@@ -96,135 +96,135 @@ CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.cpp.s"
 	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/FastLED.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/FastLED.cpp.o: ../lib/FastLED-3.3.2/FastLED.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/FastLED.cpp.o"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/FastLED.cpp.o -c /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/FastLED.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/FastLED.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/FastLED.cpp.o: ../lib/FastLED-3.3.3/FastLED.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/FastLED.cpp.o"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/FastLED.cpp.o -c /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/FastLED.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/FastLED.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/FastLED.cpp.i"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/FastLED.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/FastLED.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/FastLED.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/FastLED.cpp.i"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/FastLED.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/FastLED.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/FastLED.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/FastLED.cpp.s"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/FastLED.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/FastLED.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/FastLED.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/FastLED.cpp.s"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/FastLED.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/FastLED.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/bitswap.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/bitswap.cpp.o: ../lib/FastLED-3.3.2/bitswap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/bitswap.cpp.o"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/bitswap.cpp.o -c /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/bitswap.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/bitswap.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/bitswap.cpp.o: ../lib/FastLED-3.3.3/bitswap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/bitswap.cpp.o"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/bitswap.cpp.o -c /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/bitswap.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/bitswap.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/bitswap.cpp.i"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/bitswap.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/bitswap.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/bitswap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/bitswap.cpp.i"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/bitswap.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/bitswap.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/bitswap.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/bitswap.cpp.s"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/bitswap.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/bitswap.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/bitswap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/bitswap.cpp.s"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/bitswap.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/bitswap.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorpalettes.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorpalettes.cpp.o: ../lib/FastLED-3.3.2/colorpalettes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorpalettes.cpp.o"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorpalettes.cpp.o -c /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/colorpalettes.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorpalettes.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorpalettes.cpp.o: ../lib/FastLED-3.3.3/colorpalettes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorpalettes.cpp.o"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorpalettes.cpp.o -c /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/colorpalettes.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorpalettes.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorpalettes.cpp.i"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/colorpalettes.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorpalettes.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorpalettes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorpalettes.cpp.i"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/colorpalettes.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorpalettes.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorpalettes.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorpalettes.cpp.s"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/colorpalettes.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorpalettes.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorpalettes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorpalettes.cpp.s"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/colorpalettes.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorpalettes.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorutils.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorutils.cpp.o: ../lib/FastLED-3.3.2/colorutils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorutils.cpp.o"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorutils.cpp.o -c /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/colorutils.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorutils.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorutils.cpp.o: ../lib/FastLED-3.3.3/colorutils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorutils.cpp.o"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorutils.cpp.o -c /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/colorutils.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorutils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorutils.cpp.i"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/colorutils.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorutils.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorutils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorutils.cpp.i"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/colorutils.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorutils.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorutils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorutils.cpp.s"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/colorutils.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorutils.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorutils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorutils.cpp.s"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/colorutils.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorutils.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/hsv2rgb.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/hsv2rgb.cpp.o: ../lib/FastLED-3.3.2/hsv2rgb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/hsv2rgb.cpp.o"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/hsv2rgb.cpp.o -c /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/hsv2rgb.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/hsv2rgb.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/hsv2rgb.cpp.o: ../lib/FastLED-3.3.3/hsv2rgb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/hsv2rgb.cpp.o"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/hsv2rgb.cpp.o -c /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/hsv2rgb.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/hsv2rgb.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/hsv2rgb.cpp.i"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/hsv2rgb.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/hsv2rgb.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/hsv2rgb.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/hsv2rgb.cpp.i"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/hsv2rgb.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/hsv2rgb.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/hsv2rgb.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/hsv2rgb.cpp.s"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/hsv2rgb.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/hsv2rgb.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/hsv2rgb.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/hsv2rgb.cpp.s"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/hsv2rgb.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/hsv2rgb.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/lib8tion.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/lib8tion.cpp.o: ../lib/FastLED-3.3.2/lib8tion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/lib8tion.cpp.o"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/lib8tion.cpp.o -c /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/lib8tion.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/lib8tion.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/lib8tion.cpp.o: ../lib/FastLED-3.3.3/lib8tion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/lib8tion.cpp.o"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/lib8tion.cpp.o -c /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/lib8tion.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/lib8tion.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/lib8tion.cpp.i"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/lib8tion.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/lib8tion.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/lib8tion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/lib8tion.cpp.i"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/lib8tion.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/lib8tion.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/lib8tion.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/lib8tion.cpp.s"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/lib8tion.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/lib8tion.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/lib8tion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/lib8tion.cpp.s"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/lib8tion.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/lib8tion.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/noise.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/noise.cpp.o: ../lib/FastLED-3.3.2/noise.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/noise.cpp.o"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/noise.cpp.o -c /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/noise.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/noise.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/noise.cpp.o: ../lib/FastLED-3.3.3/noise.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/noise.cpp.o"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/noise.cpp.o -c /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/noise.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/noise.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/noise.cpp.i"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/noise.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/noise.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/noise.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/noise.cpp.i"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/noise.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/noise.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/noise.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/noise.cpp.s"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/noise.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/noise.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/noise.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/noise.cpp.s"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/noise.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/noise.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/platforms.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/platforms.cpp.o: ../lib/FastLED-3.3.2/platforms.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/platforms.cpp.o"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/platforms.cpp.o -c /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/platforms.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/platforms.cpp.o: ../lib/FastLED-3.3.3/platforms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/platforms.cpp.o"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/platforms.cpp.o -c /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/platforms.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/platforms.cpp.i"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/platforms.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/platforms.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/platforms.cpp.i"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/platforms.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/platforms.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/platforms.cpp.s"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/platforms.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/platforms.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/platforms.cpp.s"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/platforms.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/power_mgt.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/power_mgt.cpp.o: ../lib/FastLED-3.3.2/power_mgt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/power_mgt.cpp.o"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/power_mgt.cpp.o -c /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/power_mgt.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/power_mgt.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/power_mgt.cpp.o: ../lib/FastLED-3.3.3/power_mgt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/power_mgt.cpp.o"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/power_mgt.cpp.o -c /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/power_mgt.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/power_mgt.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/power_mgt.cpp.i"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/power_mgt.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/power_mgt.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/power_mgt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/power_mgt.cpp.i"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/power_mgt.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/power_mgt.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/power_mgt.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/power_mgt.cpp.s"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/power_mgt.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/power_mgt.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/power_mgt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/power_mgt.cpp.s"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/power_mgt.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/power_mgt.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/wiring.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/wiring.cpp.o: ../lib/FastLED-3.3.2/wiring.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/wiring.cpp.o"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/wiring.cpp.o -c /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/wiring.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/wiring.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/wiring.cpp.o: ../lib/FastLED-3.3.3/wiring.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/wiring.cpp.o"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/wiring.cpp.o -c /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/wiring.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/wiring.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/wiring.cpp.i"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/wiring.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/wiring.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/wiring.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/wiring.cpp.i"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/wiring.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/wiring.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/wiring.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/wiring.cpp.s"
-	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/wiring.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/wiring.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/wiring.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/wiring.cpp.s"
+	/Users/eduard/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/wiring.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/wiring.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/Si5351mcu-0.5/src/si5351mcu.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/Si5351mcu-0.5/src/si5351mcu.cpp.o: ../lib/Si5351mcu-0.5/src/si5351mcu.cpp
@@ -257,16 +257,16 @@ Z_DUMMY_TARGET_OBJECTS = \
 "CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.cpp.o" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_NeoPixel-1.3.4/esp8266.c.o" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/FastLED.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/bitswap.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorpalettes.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorutils.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/hsv2rgb.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/lib8tion.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/noise.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/platforms.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/power_mgt.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/wiring.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/FastLED.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/bitswap.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorpalettes.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorutils.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/hsv2rgb.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/lib8tion.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/noise.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/platforms.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/power_mgt.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/wiring.cpp.o" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/lib/Si5351mcu-0.5/src/si5351mcu.cpp.o" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.o"
 
@@ -276,16 +276,16 @@ Z_DUMMY_TARGET_EXTERNAL_OBJECTS =
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.cpp.o
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_NeoPixel-1.3.4/esp8266.c.o
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_NeoPixel-1.3.4/examples/StrandtestBLE/BLESerial.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/FastLED.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/bitswap.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorpalettes.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/colorutils.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/hsv2rgb.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/lib8tion.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/noise.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/platforms.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/power_mgt.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.2/wiring.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/FastLED.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/bitswap.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorpalettes.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/colorutils.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/hsv2rgb.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/lib8tion.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/noise.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/platforms.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/power_mgt.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED-3.3.3/wiring.cpp.o
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/Si5351mcu-0.5/src/si5351mcu.cpp.o
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.o
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/build.make

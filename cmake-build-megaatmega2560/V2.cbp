@@ -98,7 +98,7 @@
 					<Add directory="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/src"/>
 					<Add directory="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/Si5351mcu-0.5/src"/>
 					<Add directory="/Users/eduard/.platformio/packages/framework-arduino-avr/libraries/Wire/src"/>
-					<Add directory="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2"/>
+					<Add directory="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3"/>
 					<Add directory="/Users/eduard/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"/>
 					<Add directory="/Users/eduard/.platformio/packages/framework-arduino-avr/libraries/SPI/src"/>
 					<Add directory="/Users/eduard/.platformio/packages/framework-arduino-avr/cores/arduino"/>
@@ -137,7 +137,7 @@
 					<Add directory="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/src"/>
 					<Add directory="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/Si5351mcu-0.5/src"/>
 					<Add directory="/Users/eduard/.platformio/packages/framework-arduino-avr/libraries/Wire/src"/>
-					<Add directory="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2"/>
+					<Add directory="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3"/>
 					<Add directory="/Users/eduard/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"/>
 					<Add directory="/Users/eduard/.platformio/packages/framework-arduino-avr/libraries/SPI/src"/>
 					<Add directory="/Users/eduard/.platformio/packages/framework-arduino-avr/cores/arduino"/>
@@ -236,6 +236,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/.DS_Store">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
 		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/Adafruit_NeoPixel.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
@@ -290,469 +293,475 @@
 		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/Adafruit_NeoPixel-1.3.4/library.properties">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/.gitignore">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/.gitignore">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/FastLED.cpp">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/FastLED.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/FastLED.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/FastLED.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/PORTING.md">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/PORTING.md">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/README.md">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/README.md">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/bitswap.cpp">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/bitswap.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/bitswap.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/bitswap.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/chipsets.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/chipsets.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/color.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/color.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/colorpalettes.cpp">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/colorpalettes.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/colorpalettes.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/colorpalettes.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/colorutils.cpp">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/colorutils.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/colorutils.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/colorutils.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/component.mk">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/component.mk">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/controller.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/controller.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/cpp_compat.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/cpp_compat.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/dmx.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/dmx.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/docs/mainpage.dox">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/docs/mainpage.dox">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/AnalogOutput/AnalogOutput.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/AnalogOutput/AnalogOutput.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Blink/Blink.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/Blink/Blink.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/ColorPalette/ColorPalette.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/ColorPalette/ColorPalette.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/ColorTemperature/ColorTemperature.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/ColorTemperature/ColorTemperature.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Cylon/Cylon.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/Cylon/Cylon.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/DemoReel100/DemoReel100.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/DemoReel100/DemoReel100.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Fire2012/Fire2012.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/Fire2012/Fire2012.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Fire2012WithPalette/Fire2012WithPalette.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/Fire2012WithPalette/Fire2012WithPalette.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/FirstLight/FirstLight.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/FirstLight/FirstLight.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Multiple/ArrayOfLedArrays/ArrayOfLedArrays.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/Multiple/ArrayOfLedArrays/ArrayOfLedArrays.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Multiple/MirroringSample/MirroringSample.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/Multiple/MirroringSample/MirroringSample.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Multiple/MultiArrays/MultiArrays.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/Multiple/MultiArrays/MultiArrays.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Multiple/MultipleStripsInOneArray/MultipleStripsInOneArray.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/Multiple/MultipleStripsInOneArray/MultipleStripsInOneArray.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Multiple/OctoWS2811Demo/OctoWS2811Demo.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/Multiple/OctoWS2811Demo/OctoWS2811Demo.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Multiple/ParallelOutputDemo/ParallelOutputDemo.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/Multiple/ParallelOutputDemo/ParallelOutputDemo.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Noise/Noise.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/Noise/Noise.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/NoisePlayground/NoisePlayground.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/NoisePlayground/NoisePlayground.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/NoisePlusPalette/NoisePlusPalette.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/NoisePlusPalette/NoisePlusPalette.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Pintest/Pintest.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/Pacifica/Pacifica.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/Ports/PJRCSpectrumAnalyzer/PJRCSpectrumAnalyzer.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/Pintest/Pintest.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/RGBCalibrate/RGBCalibrate.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/Ports/PJRCSpectrumAnalyzer/PJRCSpectrumAnalyzer.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/RGBSetDemo/RGBSetDemo.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/Pride2015/Pride2015.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/SmartMatrix/SmartMatrix.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/RGBCalibrate/RGBCalibrate.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/examples/XYMatrix/XYMatrix.ino">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/RGBSetDemo/RGBSetDemo.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/extras/AppleII.s65">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/SmartMatrix/SmartMatrix.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/extras/FastLED6502.s65">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/TwinkleFox/TwinkleFox.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/extras/RainbowDemo.bin.zip">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/examples/XYMatrix/XYMatrix.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/extras/RainbowDemo.s65">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/extras/AppleII.s65">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/fastled_config.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/extras/FastLED6502.s65">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/fastled_delay.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/extras/RainbowDemo.bin.zip">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/fastled_progmem.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/extras/RainbowDemo.s65">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/fastpin.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/fastled_config.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/fastspi.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/fastled_delay.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/fastspi_bitbang.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/fastled_progmem.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/fastspi_dma.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/fastpin.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/fastspi_nop.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/fastspi.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/fastspi_ref.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/fastspi_bitbang.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/fastspi_types.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/fastspi_dma.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/hsv2rgb.cpp">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/fastspi_nop.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/hsv2rgb.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/fastspi_ref.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/keywords.txt">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/fastspi_types.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/led_sysdefs.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/hsv2rgb.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/lib8tion.cpp">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/hsv2rgb.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/lib8tion.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/keywords.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/lib8tion/math8.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/led_sysdefs.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/lib8tion/random8.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/lib8tion.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/lib8tion/scale8.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/lib8tion.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/lib8tion/trig8.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/lib8tion/math8.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/library.json">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/lib8tion/random8.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/library.properties">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/lib8tion/scale8.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/noise.cpp">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/lib8tion/trig8.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/noise.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/library.json">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/pixelset.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/library.properties">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/pixeltypes.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/noise.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms.cpp">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/noise.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/pixelset.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/common/m0clockless.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/pixeltypes.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/d21/clockless_arm_d21.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/d21/fastled_arm_d21.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/d21/fastpin_arm_d21.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/common/m0clockless.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/d21/led_sysdefs_arm_d21.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/d21/clockless_arm_d21.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/d51/README.txt">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/d21/fastled_arm_d21.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/d51/clockless_arm_d51.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/d21/fastpin_arm_d21.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/d51/fastled_arm_d51.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/d21/led_sysdefs_arm_d21.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/d51/fastpin_arm_d51.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/d51/README.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/d51/led_sysdefs_arm_d51.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/d51/clockless_arm_d51.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k20/clockless_arm_k20.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/d51/fastled_arm_d51.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k20/clockless_block_arm_k20.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/d51/fastpin_arm_d51.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k20/fastled_arm_k20.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/d51/led_sysdefs_arm_d51.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k20/fastpin_arm_k20.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/k20/clockless_arm_k20.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k20/fastspi_arm_k20.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/k20/clockless_block_arm_k20.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k20/led_sysdefs_arm_k20.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/k20/fastled_arm_k20.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k20/octows2811_controller.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/k20/fastpin_arm_k20.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k20/smartmatrix_t3.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/k20/fastspi_arm_k20.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k20/ws2812serial_controller.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/k20/led_sysdefs_arm_k20.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k66/clockless_arm_k66.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/k20/octows2811_controller.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k66/clockless_block_arm_k66.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/k20/smartmatrix_t3.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k66/fastled_arm_k66.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/k20/ws2812serial_controller.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k66/fastpin_arm_k66.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/k66/clockless_arm_k66.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k66/fastspi_arm_k66.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/k66/clockless_block_arm_k66.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/k66/led_sysdefs_arm_k66.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/k66/fastled_arm_k66.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/kl26/clockless_arm_kl26.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/k66/fastpin_arm_k66.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/kl26/fastled_arm_kl26.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/k66/fastspi_arm_k66.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/kl26/fastpin_arm_kl26.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/k66/led_sysdefs_arm_k66.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/kl26/fastspi_arm_kl26.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/kl26/clockless_arm_kl26.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/kl26/led_sysdefs_arm_kl26.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/kl26/fastled_arm_kl26.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/mxrt1062/block_clockless_arm_mxrt1062.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/kl26/fastpin_arm_kl26.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/mxrt1062/clockless_arm_mxrt1062.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/kl26/fastspi_arm_kl26.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/mxrt1062/fastled_arm_mxrt1062.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/kl26/led_sysdefs_arm_kl26.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/mxrt1062/fastpin_arm_mxrt1062.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/mxrt1062/block_clockless_arm_mxrt1062.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/mxrt1062/fastspi_arm_mxrt1062.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/mxrt1062/clockless_arm_mxrt1062.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/mxrt1062/led_sysdefs_arm_mxrt1062.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/mxrt1062/fastled_arm_mxrt1062.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf51/clockless_arm_nrf51.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/mxrt1062/fastpin_arm_mxrt1062.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf51/fastled_arm_nrf51.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/mxrt1062/fastspi_arm_mxrt1062.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf51/fastpin_arm_nrf51.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/mxrt1062/led_sysdefs_arm_mxrt1062.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf51/fastspi_arm_nrf51.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/nrf51/clockless_arm_nrf51.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf51/led_sysdefs_arm_nrf51.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/nrf51/fastled_arm_nrf51.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/arbiter_nrf52.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/nrf51/fastpin_arm_nrf51.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/clockless_arm_nrf52.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/nrf51/fastspi_arm_nrf51.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/fastled_arm_nrf52.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/nrf51/led_sysdefs_arm_nrf51.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/fastpin_arm_nrf52.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/nrf52/arbiter_nrf52.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/fastpin_arm_nrf52_variants.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/nrf52/clockless_arm_nrf52.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/fastspi_arm_nrf52.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/nrf52/fastled_arm_nrf52.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/nrf52/led_sysdefs_arm_nrf52.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/nrf52/fastpin_arm_nrf52.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/sam/clockless_arm_sam.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/nrf52/fastpin_arm_nrf52_variants.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/sam/clockless_block_arm_sam.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/nrf52/fastspi_arm_nrf52.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/sam/fastled_arm_sam.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/nrf52/led_sysdefs_arm_nrf52.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/sam/fastpin_arm_sam.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/sam/clockless_arm_sam.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/sam/fastspi_arm_sam.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/sam/clockless_block_arm_sam.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/sam/led_sysdefs_arm_sam.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/sam/fastled_arm_sam.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/stm32/clockless_arm_stm32.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/sam/fastpin_arm_sam.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/stm32/cm3_regs.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/sam/fastspi_arm_sam.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/stm32/fastled_arm_stm32.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/sam/led_sysdefs_arm_sam.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/stm32/fastpin_arm_stm32.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/stm32/clockless_arm_stm32.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/arm/stm32/led_sysdefs_arm_stm32.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/stm32/cm3_regs.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/avr/clockless_trinket.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/stm32/fastled_arm_stm32.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/avr/fastled_avr.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/stm32/fastpin_arm_stm32.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/avr/fastpin_avr.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/arm/stm32/led_sysdefs_arm_stm32.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/avr/fastspi_avr.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/avr/clockless_trinket.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/avr/led_sysdefs_avr.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/avr/fastled_avr.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/32/clockless_block_esp32.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/avr/fastpin_avr.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/32/clockless_esp32.h.orig">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/avr/fastspi_avr.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/32/clockless_i2s_esp32.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/avr/led_sysdefs_avr.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/32/clockless_rmt_esp32.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/esp/32/clockless_block_esp32.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/32/fastled_esp32.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/esp/32/clockless_esp32.h.orig">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/32/fastpin_esp32.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/esp/32/clockless_i2s_esp32.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/32/led_sysdefs_esp32.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/esp/32/clockless_rmt_esp32.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/8266/clockless_block_esp8266.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/esp/32/fastled_esp32.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/8266/clockless_esp8266.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/esp/32/fastpin_esp32.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/8266/fastled_esp8266.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/esp/32/led_sysdefs_esp32.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/8266/fastpin_esp8266.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/esp/8266/clockless_block_esp8266.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/platforms/esp/8266/led_sysdefs_esp8266.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/esp/8266/clockless_esp8266.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/power_mgt.cpp">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/esp/8266/fastled_esp8266.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/power_mgt.h">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/esp/8266/fastpin_esp8266.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/preview_changes.txt">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/platforms/esp/8266/led_sysdefs_esp8266.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/release_notes.md">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/power_mgt.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.2/wiring.cpp">
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/power_mgt.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/release_notes.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/FastLED-3.3.3/wiring.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
 		<Unit filename="/Users/eduard/CLion_Projects/14_band_spectrum_analyzer/V2/lib/Si5351mcu-0.5/.gitignore">

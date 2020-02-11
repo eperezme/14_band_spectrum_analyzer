@@ -1,55 +1,31 @@
 /*
-/////	Project: 14 Band Spectrum Analyzer using WS2812B addressable "Smart" LED's and MSGEQ7 band-slicing IC's
-/////	Programmed and tested by Daniel Perez, A.K.A GeneratorLabs
-/////	Location: Myrtle Beach, South Carolina, United States of America
-//N//	E-Mail: generatorlabs@gmail.com
-//O//	Date: June 01, 2019
-//E//	Revision: Ver 2.3
-//T//	Target Platform: Arduino Mega2650 with SpeckyBoard
-//E//	License: This program is free software. You can redistribute it and/or modify it under the terms of the GNU General Public License as published by
-//S//	the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-/////	This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
-/////	FITNESS FOR A PARTICULAR PURPOSE.	See the GNU General Public License for more details.
-/////	Credits: See acknowledgements & credits section below.
 
-/////	More information about this project, the necessary circuits and a source for parts-kits can be obtained by email (generatorlabs@gmail.com)
-/////	The notes & comments do not consume Arduino memory. They automatically get stripped out before compiled program is uploaded to Arduino.
-/////	Please keep notes in tact for future reference.
 /////
-/////	--- CREDITS & ACKNOWLEDGEMENTS ---
-/////	This sketch is based on a similar project and code from Denis Lanfrit and I respectfully thank Denis for his open source efforts.
-//N//	The original code has been modified to allow a scalable platform with many more bands.
-//O//	The library Si5351mcu is being utilized for programming masterclock IC frequencies. Special thanks to Pavel Milanes for his outstanding work. (https://github.com/pavelmc/Si5351mcu)
-//T//	The library "FastLED" is being utilized to send data to the LED string. This library was developed by Daniel Garcia in 2012 and I respectfully
-//E//	thank him for the amazing work as well. (https://github.com/FastLED/FastLED)
-//S//
-/////	This sketch is written for an Arduino Mega2650. While it is possible to run modified code on a UNO or NANO, the memory limitations of those
-/////	devices makes it impractical for a spectrum analyzer operating with more than 7 bands. The cost difference between the UNO and Mega2560 is so small that
-/////	it makes no sense to cram code into an UNO with only a few bytes to spare.
+/////
 /////
 //N//	--- PIN ASSIGNMENTS ---
 //O//
-//T//	Smart LED's use Pin 36 for data. The LED's are defined as a single wire WS2812B type in "SETUP" section.
-//E//	Strobe signal uses pin 7
-//S//	Reset signal uses pin 6
+//T//	Smart LED's use Pin 9 for data. The LED's are defined as a single wire WS2812B type in "SETUP" section.
+//E//	Strobe signal uses pin 6
+//S//	Reset signal uses pin 7
 /////	Analog reading of MSGEQ7 IC1 and IC2 use pin A0 and A1 respectively.
-/////	Make sure all boards, sub-assemblies, LED strings, etc are all tied to a common ground. Failure to do so will result in erratic operation and
-/////	possible circuit or component failure. Treat smart LED's with respect. They are susceptable to electrostatic discharge and improper voltages & polarity!
-/////	This code is being offered AS-IS. End user assumes any responsibility associated with the use of this code.
+/////
+/////
+/////
 */
 
 #include <si5351mcu.h>    // Library used to program clock generator IC via I2C
 
 Si5351mcu Si;    // Library instantiation as "Si"
-#include <FastLED.h>    // You must include FastLED version 3.002.006. This library allows communication with each LED
+#include <FastLED.h>    // Library for LED control
 
 #define HEARTBEAT_PIN 13    // Pin for heartbeat
 #define DATA_PIN 9    // Pin for serial communication with LED string. This pin directs data thru termination resistor R13 on my 'SPECKY-BOARD'.
-#define STROBE_PIN 6    // Pin to instruct MSGEQ7 IC's to inspect next band (band 0 thru 6). Default Pin is 6. Default Pin on SpeckyBoard is 7.
-#define RESET_PIN 7    // Pin to instruct MSGEQ7 to return to band zero and inspect it. Default Pin is 7. Default Pin on SpeckyBoard is 6.
+#define STROBE_PIN 6    // Pin to instruct MSGEQ7 IC's to inspect next band (band 0 thru 6).
+#define RESET_PIN 7    // Pin to instruct MSGEQ7 to return to band zero and inspect it.
 #define COLUMN 14    // Number of columns in LED project
 #define ROWS 20    // Number of rows (left to right) in LED project.
-#define NUM_LEDS COLUMN * ROWS    // Total number of LED's in the project. Should be equal to COLUMN * ROWS
+#define NUM_LEDS COLUMN * ROWS    // Total number of LED's in the project.
 #define BRIGHTNESS    50    // Intensity of LED's. The lower the number the longer LED's will last. LED's do have a finite life span when run at high output.
 // It is strongly recommended to keep this number as low as possible. Inexpensive LED strips will have a noticeably shorter life and pull large
 // amounts of current unecessarily. Large surges in current could lead to current starvation and possibly erratic operation. Your power supply must be
@@ -64,7 +40,7 @@ Si5351mcu Si;    // Library instantiation as "Si"
 // Test on 63Hz, 160Hz, 400Hz, & 1000Hz. Clock signals being fed into MSGEQ IC's must be accurately tuned or band drifting will occur and cause adjustments to be skewed.
 
 #define DELTA 38    // 48 is a good start point. ; My number 42
-#define LEDTYPE WS2812B    // Type of LED communication protocol used.
+#define LEDTYPE WS2812B    // LED communication protocol used.
 
 // Matrix Definition
 CRGB leds[NUM_LEDS];
@@ -92,13 +68,13 @@ int effect = 2;    //	Load this color	effect	on	startup
 bool toggle = false;
 int n = 0;
 
-int sensor = A4;
-int selector = A5;
+int sensor = A4; // Brightness Selector
+int selector = A5; //   RGB Effect Selector
 int effect_selected;
 int brightness;
-int pot_pin_h = A6;
-int pot_pin_s = A7;
-int pot_pin_v = A8;
+int pot_pin_h = A6; //  H pot
+int pot_pin_s = A7; //  S pot
+int pot_pin_v = A8; //  V pot
 int h_val;
 int v_val;
 int s_val;
@@ -212,6 +188,9 @@ void loop() {
         digitalWrite(HEARTBEAT_PIN, toggle);
         heartbeat = millis();
     }
+
+    brightness_read();
+    FastLED.setBrightness(brightness);
 
     switch (effect)    // Case logic to determine which color effect to use
     {
