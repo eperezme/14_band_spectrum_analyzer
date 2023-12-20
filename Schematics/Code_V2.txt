@@ -1,23 +1,5 @@
-/////	Project: 14 Band Spectrum Analyzer using WS2812B addressable "Smart" LED's and MSGEQ7 band-slicing IC's
-/////	Programmed and tested by Daniel Perez, A.K.A GeneratorLabs
-/////	Location: Myrtle Beach, South Carolina, United States of America
-//N//	E-Mail: generatorlabs@gmail.com
-//O//	Date: June 01, 2019
-//E//	Revision: Ver 2.3
-//T//	Target Platform: Arduino Mega2650 with SpeckyBoard
-//E//	License: This program is free software. You can redistribute it and/or modify it under the terms of the GNU General Public License as published by
-//S//	the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-/////	This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
-/////	FITNESS FOR A PARTICULAR PURPOSE.	See the GNU General Public License for more details.
-/////	Credits: See acknowledgements & credits section below
-/*
-/////	More information about this project, the necessary circuits and a source for parts-kits can be obtained by email (generatorlabs@gmail.com)
-/////	The notes & comments do not consume Arduino memory. They automatically get stripped out before compiled program is uploaded to Arduino.
-/////	Please keep notes in tact for future reference.
-/////
+////
 /////	--- CREDITS & ACKNOWLEDGEMENTS ---
-/////	This sketch is based on a similar project and code from Denis Lanfrit and I respectfully thank Denis for his open source efforts.
-//N//	The original code has been modified to allow a scalable platform with many more bands.
 //O//	The library Si5351mcu is being utilized for programming masterclock IC frequencies. Special thanks to Pavel Milanes for his outstanding work. (https://github.com/pavelmc/Si5351mcu)
 //T//	The library "FastLED" is being utilized to send data to the LED string. This library was developed by Daniel Garcia in 2012 and I respectfully
 //E//	thank him for the amazing work as well. (https://github.com/FastLED/FastLED)
